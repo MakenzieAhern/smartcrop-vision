@@ -61,17 +61,7 @@ Grad-CAM highlights regions influencing the predicted class; it does not establi
 
 ## How it works
 
-```mermaid
-flowchart LR
-    A[Leaf photograph] --> B[RGB · 224 × 224 · divide by 255]
-    B --> C[Frozen MobileNetV2]
-    C --> D[Global average pooling]
-    D --> E[Dropout · Dense 256 · Dropout]
-    E --> F[15-class softmax]
-    F --> G[Top-k predictions]
-    F --> H[Static follow-up note]
-    C --> I[Grad-CAM]
-```
+![SmartCrop Vision architecture](docs/assets/pipeline.svg)
 
 The original model was trained with inverse-frequency class weighting, augmentation, early stopping, learning-rate reduction, and validation-selected checkpoints. The supplied weights expect **`[0,1]` inputs**. Although MobileNetV2 commonly uses another preprocessing convention, changing this checkpoint's normalization would change its behavior.
 
