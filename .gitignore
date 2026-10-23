@@ -1,0 +1,22 @@
+# Local environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.idea/
+.ipynb_checkpoints/
+# Original local datasets (see docs/DATA.md)
+/archive/
+/mini_eval/
+/*.csv
+# Generated artifacts
+/outputs/
+*.tflite
+/gradcam_overlay.png
+/model_multiclass_ft.keras
+# Credential and local configuration files
+.env
+.env.*
+
+/runs/

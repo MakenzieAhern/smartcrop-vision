@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "scope": "Synthetic workflow smoke test; not a disease-classification performance benchmark.",
+  "command": "python model_training_multiclass.py --data-dir runs/training-smoke-fixture --output-dir runs/training-smoke-final --epochs 1 --batch-size 2 --weights none",
+  "fixture": {
+    "images": 8,
+    "classes": 2,
+    "class_names": [
+      "leaf_a",
+      "leaf_b"
+    ],
+    "images_per_class": 4,
+    "source_image_size": [
+      32,
+      32,
+      3
+    ],
+    "generator": "numpy.random.default_rng(19).integers(0, 256, size=(32,32,3), dtype=uint8), saved as PNG",
+    "training_images": 6,
+    "validation_images": 2,
+    "fixture_contains_real_crop_data": false
+  },
+  "completed_epochs": 1,
+  "backbone_initialization": "random; frozen; no pretrained-weight download",
+  "versions": {
+    "python": "3.12.0",
+    "tensorflow": "2.17.1",
+    "keras": "3.11.3",
+    "numpy": "1.26.4",
+    "scikit-learn": "1.5.2"
+  },
+  "checks": {
+    "training_completed": true,
+    "best_checkpoint_reloaded_for_prediction": true,
+    "all_expected_artifacts_written": true,
+    "saved_model_hash_matches_run_metadata": true,
+    "saved_split_hash_matches_run_metadata": true,
+    "one_prediction_per_validation_image": true,
+    "validation_repeated_batches_identical": true,
+    "validation_augmentation_disabled": true,
+    "preprocessed_shape": [
+      2,
+      224,
+      224,
+      3
+    ],
+    "pixel_range": "[0,1]"
+  },
+  "expected_artifacts": [
+    "best_multiclass.keras",
+    "model_multiclass_final.keras",
+    "class_indices.json",
+    "split_manifest.json",
+    "run_metadata.json",
+    "history.json",
+    "classification_report.txt",
+    "training_curves.png",
+    "confusion_matrix.png",
+    "validation_y_true.npy",
+    "validation_y_pred.npy"
+  ],
+  "notes": [
+    "The validation repeatability/preprocessing checks were also run directly on the same fixture.",
+    "The full PlantVillage dataset was not retrained in this verification.",
+    "The legacy Keras ImageDataGenerator adapter emits a PyDataset initialization warning; the training, checkpoint reload, and predictions complete successfully."
+  ]
+}

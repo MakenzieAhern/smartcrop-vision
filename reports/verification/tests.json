@@ -1,0 +1,11 @@
+{
+  "tests": "44",
+  "failures": "0",
+  "errors": "0",
+  "skipped": "0",
+  "time": "16.147",
+  "date": "2026-10-23",
+  "command": "python -m pytest -q",
+  "environment": "Fresh Python 3.12 venv installed from requirements-dev.txt",
+  "notes": "40 test cases and 4 unittest subtests; upstream deprecation warnings only"
+}

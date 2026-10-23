@@ -1,0 +1,19 @@
+=== Mini Eval Setup ===
+Tomato_Early_blight                           -> 30 files
+Tomato_Late_blight                            -> 30 files
+Tomato_healthy                                -> 30 files
+Total images: 90
+
+=== Classification Report (Mini Eval) ===
+                     precision    recall  f1-score   support
+
+Tomato_Early_blight     0.9412    0.5333    0.6809        30
+ Tomato_Late_blight     0.9667    0.9667    0.9667        30
+     Tomato_healthy     1.0000    0.8333    0.9091        30
+
+          micro avg     0.9722    0.7778    0.8642        90
+          macro avg     0.9693    0.7778    0.8522        90
+       weighted avg     0.9693    0.7778    0.8522        90
+
+Confusion matrix shape: (3, 3)
+Saved arrays to reports/: mini_eval_y_true.npy, mini_eval_y_pred.npy, mini_eval_label_indices.npy

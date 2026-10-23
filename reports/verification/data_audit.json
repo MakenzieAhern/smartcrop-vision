@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "method": "SHA-256 of file bytes; case-insensitive image extensions; sorted relative paths",
+  "inventory_sha256": "153dbdf840682db186db9c7e9a7a02ae6e233b51700ebc30df6a5a2537e770ac",
+  "images": 20638,
+  "classes": 15,
+  "counts_per_class": {
+    "Pepper__bell___Bacterial_spot": 997,
+    "Pepper__bell___healthy": 1478,
+    "Potato___Early_blight": 1000,
+    "Potato___Late_blight": 1000,
+    "Potato___healthy": 152,
+    "Tomato_Bacterial_spot": 2127,
+    "Tomato_Early_blight": 1000,
+    "Tomato_Late_blight": 1909,
+    "Tomato_Leaf_Mold": 952,
+    "Tomato_Septoria_leaf_spot": 1771,
+    "Tomato_Spider_mites_Two_spotted_spider_mite": 1676,
+    "Tomato__Target_Spot": 1404,
+    "Tomato__Tomato_YellowLeaf__Curl_Virus": 3208,
+    "Tomato__Tomato_mosaic_virus": 373,
+    "Tomato_healthy": 1591
+  },
+  "unique_image_hashes": 20624,
+  "duplicate_groups": 14,
+  "duplicate_files_beyond_first": 14,
+  "conflicting_label_groups": 0,
+  "historical_filename_split": {
+    "validation_fraction": 0.15,
+    "counts": {
+      "train": 17549,
+      "validation": 3089
+    },
+    "duplicate_groups_crossing_split": 3
+  },
+  "duplicates": [
+    {
+      "sha256": "12852b3616bcf0ba39b03b5677e74f50f5f6abf4d38957fe17949e23e2a4b244",
+      "paths": [
+        "Tomato_healthy/488feb1c-4b9f-44e7-8aa6-4103a9601f5f___GH_HL Leaf 434.JPG",
+        "Tomato_healthy/a5de43e7-fc2f-4a14-a8e6-c0f2f94c84f1___GH_HL Leaf 434.JPG"
+      ],
+      "labels": [
+        "Tomato_healthy"
+      ],
+      "crosses_historical_split": false
+    },
+    {
+      "sha256": "2a05a74db3a270ac0ec77c00ebe89a332eed589819435129cc3c29eb6e701eb2",
+      "paths": [
+        "Tomato_healthy/068e324c-faf6-40d6-8f83-578907f1cac5___GH_HL Leaf 466.1.JPG",
+        "Tomato_healthy/34c81c57-e1fa-49dd-a49d-34fe8b2385fe___GH_HL Leaf 466.1.JPG"
+      ],
+      "labels": [
+        "Tomato_healthy"
+      ],
+      "crosses_historical_split": true
+    },
+    {
+      "sha256": "2aeb7479e975df37dfb54aa7b403f57f2ad90b018c37809e572a2a932f55d2a7",
+      "paths": [
+        "Tomato_Late_blight/5f21282c-e2ef-4c4a-ace1-b5701fe7effc___GHLB2 Leaf 8999.JPG",
+        "Tomato_Late_blight/e5d707cd-077c-43af-bda9-6138e516ff51___GHLB2 Leaf 8999.JPG"
+      ],
+      "labels": [
+        "Tomato_Late_blight"
+      ],
+      "crosses_historical_split": false
+    },
+    {
+      "sha256": "32e9ffabaa054c19ae8df95e94fbd7a25105defdea1214eb5f8bd804ea9a7428",
+      "paths": [
+        "Tomato_healthy/9662364c-aaba-45e3-b907-10792d60578c___GH_HL Leaf 220.JPG",
+        "Tomato_healthy/d2ce7896-6fa4-45e6-96c5-d162da0e3e1c___GH_HL Leaf 220.JPG"
+      ],
+      "labels": [
+        "Tomato_healthy"
+      ],
+      "crosses_historical_split": false
+    },
+    {
+      "sha256": "375eee7b5da77c7afdd73d089574bee3148d04cbe266ee070ee4774d26aca750",
+      "paths": [
+        "Tomato_Late_blight/48c55974-9fe9-4f4b-94f7-c8cd127d1e05___GHLB_PS Leaf 23.7 Day 13.jpg",
+        "Tomato_Late_blight/bd4f09bd-ee85-4ab1-bce0-8cde3fdd7f1b___GHLB_PS Leaf 23.7 Day 13.jpg"
+      ],
+      "labels": [
+        "Tomato_Late_blight"
+      ],
+      "crosses_historical_split": false
+    },
+    {
+      "sha256": "3a60a7b6f3a287981d21dca37f27e5480cc46d1144688d435e53db7a47b7006f",
+      "paths": [
+        "Tomato_Late_blight/861d8b00-57a4-46b0-b51a-09d102dbe119___GHLB_PS Leaf 24 Day 13.jpg",
+        "Tomato_Late_blight/d82b634e-9a19-497b-b698-aaf100d622a1___GHLB_PS Leaf 24 Day 13.jpg"
+      ],
+      "labels": [
+        "Tomato_Late_blight"
+      ],
+      "crosses_historical_split": false
+    },
+    {
+      "sha256": "4913a3835e692530e507d542caccacc0d0a7b2fd708782cdec6236a1a0dbbcd6",
+      "paths": [
+        "Tomato_Late_blight/3fae9c64-18f0-4a67-9f97-554248bb1bed___GHLB_PS Leaf 24 Day 16.jpg",
+        "Tomato_Late_blight/5de6da85-f8c4-48c4-b463-3e6bd78884cc___GHLB_PS Leaf 24 Day 16.jpg"
+      ],
+      "labels": [
+        "Tomato_Late_blight"
+      ],
+      "crosses_historical_split": false
+    },
+    {
+      "sha256": "61f6fa6195ef5c59c4918a292c641d4cd3d2d31ff051dcd0f36a625daf93f5ef",
+      "paths": [
+        "Tomato_healthy/1af0bfe1-4bcf-4b8b-be66-5d0953eb647e___GH_HL Leaf 482.2.JPG",
+        "Tomato_healthy/cfd491d6-4af5-4728-8f0e-0d330a07174a___GH_HL Leaf 482.2.JPG"
+      ],
+      "labels": [
+        "Tomato_healthy"
+      ],
+      "crosses_historical_split": true
+    },
+    {
+      "sha256": "68cda8c3ceca7626cc6727e14186d356b10d1e345eb16e425ef82f21a30258ed",
+      "paths": [
+        "Tomato_healthy/37aad83b-7ff8-4b35-b3ed-fb8e0f54910b___GH_HL Leaf 342.1.JPG",
+        "Tomato_healthy/e786ac89-29fe-47e3-b49e-b9a9ee7edd9d___GH_HL Leaf 342.1.JPG"
+      ],
+      "labels": [
+        "Tomato_healthy"
+      ],
+      "crosses_historical_split": false
+    },
+    {
+      "sha256": "6e1610d4e0f6f84108af112322d11779254b2b2d41958449c64b0bf938628444",
+      "paths": [
+        "Tomato_Late_blight/5688ea99-c949-41d0-bbab-9cbf0ffb8bcd___GHLB2 Leaf 8677.JPG",
+        "Tomato_Late_blight/e20107e7-137f-400e-817f-5dc4c58e5d70___GHLB2 Leaf 8677.JPG"
+      ],
+      "labels": [
+        "Tomato_Late_blight"
+      ],
+      "crosses_historical_split": false
+    },
+    {
+      "sha256": "7ff8410db407008bb9aecf0cc5505f2b47ffd89e508413a30ea983b4bc169714",
+      "paths": [
+        "Tomato_Late_blight/1a69b38b-c4eb-42c4-9584-bcb14fb8db0c___GHLB2 Leaf 9011.JPG",
+        "Tomato_Late_blight/2c47b891-3c97-48f1-a2cc-5aa53d3a1148___GHLB2 Leaf 9011.JPG"
+      ],
+      "labels": [
+        "Tomato_Late_blight"
+      ],
+      "crosses_historical_split": true
+    },
+    {
+      "sha256": "90220c67ab2c3ed150e93f0c26691d463200e784c74152e62acedac8a4d2d525",
+      "paths": [
+        "Tomato_Late_blight/98586693-fe1f-4ea0-8e27-4501b61cf09b___GHLB_PS Leaf 23.5 Day 13.jpg",
+        "Tomato_Late_blight/c1775bad-7c02-41fb-bb7d-f8df91d60ac3___GHLB_PS Leaf 23.5 Day 13.jpg"
+      ],
+      "labels": [
+        "Tomato_Late_blight"
+      ],
+      "crosses_historical_split": false
+    },
+    {
+      "sha256": "a05e573ae6c4a28b077b8c9d01249be849f4f8e1790b2625b42c6bc01098f718",
+      "paths": [
+        "Tomato_Late_blight/d6e6897a-5083-4914-9903-804c5684a956___GHLB2 Leaf 102.JPG",
+        "Tomato_Late_blight/d81682aa-746b-4e07-af2b-52ebb6f4c017___GHLB2 Leaf 102.JPG"
+      ],
+      "labels": [
+        "Tomato_Late_blight"
+      ],
+      "crosses_historical_split": false
+    },
+    {
+      "sha256": "addddf5cb2a74192c9836be70fc223659062675eb325d55429c341a0c44937d0",
+      "paths": [
+        "Tomato_healthy/37203047-d8ba-43f7-b31e-d496c41c569c___GH_HL Leaf 389.JPG",
+        "Tomato_healthy/505465db-407b-4e0a-8110-7479dad5261c___GH_HL Leaf 389.JPG"
+      ],
+      "labels": [
+        "Tomato_healthy"
+      ],
+      "crosses_historical_split": false
+    }
+  ],
+  "revised_split": {
+    "seed": 42,
+    "counts": {
+      "train": 17537,
+      "validation": 3087,
+      "duplicates_excluded": 14,
+      "train_per_class": {
+        "Pepper__bell___Bacterial_spot": 848,
+        "Pepper__bell___healthy": 1257,
+        "Potato___Early_blight": 850,
+        "Potato___Late_blight": 850,
+        "Potato___healthy": 130,
+        "Tomato_Bacterial_spot": 1808,
+        "Tomato_Early_blight": 850,
+        "Tomato_Late_blight": 1616,
+        "Tomato_Leaf_Mold": 810,
+        "Tomato_Septoria_leaf_spot": 1506,
+        "Tomato_Spider_mites_Two_spotted_spider_mite": 1425,
+        "Tomato__Target_Spot": 1194,
+        "Tomato__Tomato_YellowLeaf__Curl_Virus": 2727,
+        "Tomato__Tomato_mosaic_virus": 318,
+        "Tomato_healthy": 1348
+      },
+      "validation_per_class": {
+        "Pepper__bell___Bacterial_spot": 149,
+        "Pepper__bell___healthy": 221,
+        "Potato___Early_blight": 150,
+        "Potato___Late_blight": 150,
+        "Potato___healthy": 22,
+        "Tomato_Bacterial_spot": 319,
+        "Tomato_Early_blight": 150,
+        "Tomato_Late_blight": 285,
+        "Tomato_Leaf_Mold": 142,
+        "Tomato_Septoria_leaf_spot": 265,
+        "Tomato_Spider_mites_Two_spotted_spider_mite": 251,
+        "Tomato__Target_Spot": 210,
+        "Tomato__Tomato_YellowLeaf__Curl_Virus": 481,
+        "Tomato__Tomato_mosaic_virus": 55,
+        "Tomato_healthy": 237
+      }
+    },
+    "overlapping_hashes": 0
+  },
+  "mini_eval": {
+    "images": 4346,
+    "matches_source": 4346,
+    "has_exact_source_overlap": true,
+    "unique_hashes": 4336,
+    "counts_and_overlap_per_class": {
+      "Tomato_Early_blight": {
+        "images": 1000,
+        "matches_source": 1000
+      },
+      "Tomato_Late_blight": {
+        "images": 1756,
+        "matches_source": 1756
+      },
+      "Tomato_healthy": {
+        "images": 1590,
+        "matches_source": 1590
+      }
+    },
+    "independent_test_set": false,
+    "interpretation": "Any source overlap invalidates a fully independent holdout claim; absence of exact-byte overlap alone does not establish independence."
+  }
+}

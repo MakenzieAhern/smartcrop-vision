@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-23",
+  "python": "3.12.0",
+  "platform": "Darwin",
+  "architecture": "arm64",
+  "packages": {
+    "tensorflow": "2.17.1",
+    "keras": "3.11.3",
+    "numpy": "1.26.4",
+    "opencv-python-headless": "4.10.0.84",
+    "Pillow": "10.4.0",
+    "scikit-learn": "1.5.2",
+    "matplotlib": "3.9.2",
+    "seaborn": "0.13.2",
+    "pandas": "2.2.2",
+    "h5py": "3.15.0",
+    "pytest": "9.1.1"
+  },
+  "environment": "Fresh venv installed from requirements-dev.txt"
+}

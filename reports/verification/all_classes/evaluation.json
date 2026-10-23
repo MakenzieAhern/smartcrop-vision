@@ -1,0 +1,4963 @@
+{
+  "sample_count": 450,
+  "class_counts": {
+    "Pepper__bell___Bacterial_spot": 30,
+    "Pepper__bell___healthy": 30,
+    "Potato___Early_blight": 30,
+    "Potato___Late_blight": 30,
+    "Potato___healthy": 30,
+    "Tomato_Bacterial_spot": 30,
+    "Tomato_Early_blight": 30,
+    "Tomato_Late_blight": 30,
+    "Tomato_Leaf_Mold": 30,
+    "Tomato_Septoria_leaf_spot": 30,
+    "Tomato_Spider_mites_Two_spotted_spider_mite": 30,
+    "Tomato__Target_Spot": 30,
+    "Tomato__Tomato_YellowLeaf__Curl_Virus": 30,
+    "Tomato__Tomato_mosaic_virus": 30,
+    "Tomato_healthy": 30
+  },
+  "labels": [
+    "Pepper__bell___Bacterial_spot",
+    "Pepper__bell___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy",
+    "Tomato_Bacterial_spot",
+    "Tomato_Early_blight",
+    "Tomato_Late_blight",
+    "Tomato_Leaf_Mold",
+    "Tomato_Septoria_leaf_spot",
+    "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "Tomato__Target_Spot",
+    "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "Tomato__Tomato_mosaic_virus",
+    "Tomato_healthy"
+  ],
+  "label_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "represented_label_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "accuracy": 0.9066666666666666,
+  "macro_f1_all_classes": 0.9055043777826158,
+  "weighted_f1": 0.9055043777826156,
+  "classification_report": {
+    "Pepper__bell___Bacterial_spot": {
+      "precision": 0.9666666666666667,
+      "recall": 0.9666666666666667,
+      "f1-score": 0.9666666666666667,
+      "support": 30.0
+    },
+    "Pepper__bell___healthy": {
+      "precision": 0.967741935483871,
+      "recall": 1.0,
+      "f1-score": 0.9836065573770492,
+      "support": 30.0
+    },
+    "Potato___Early_blight": {
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9655172413793104,
+      "support": 30.0
+    },
+    "Potato___Late_blight": {
+      "precision": 0.9655172413793104,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9491525423728814,
+      "support": 30.0
+    },
+    "Potato___healthy": {
+      "precision": 0.967741935483871,
+      "recall": 1.0,
+      "f1-score": 0.9836065573770492,
+      "support": 30.0
+    },
+    "Tomato_Bacterial_spot": {
+      "precision": 0.90625,
+      "recall": 0.9666666666666667,
+      "f1-score": 0.9354838709677419,
+      "support": 30.0
+    },
+    "Tomato_Early_blight": {
+      "precision": 0.9047619047619048,
+      "recall": 0.6333333333333333,
+      "f1-score": 0.7450980392156863,
+      "support": 30.0
+    },
+    "Tomato_Late_blight": {
+      "precision": 0.8484848484848485,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.8888888888888888,
+      "support": 30.0
+    },
+    "Tomato_Leaf_Mold": {
+      "precision": 0.7317073170731707,
+      "recall": 1.0,
+      "f1-score": 0.8450704225352113,
+      "support": 30.0
+    },
+    "Tomato_Septoria_leaf_spot": {
+      "precision": 0.96,
+      "recall": 0.8,
+      "f1-score": 0.8727272727272727,
+      "support": 30.0
+    },
+    "Tomato_Spider_mites_Two_spotted_spider_mite": {
+      "precision": 1.0,
+      "recall": 0.7333333333333333,
+      "f1-score": 0.8461538461538461,
+      "support": 30.0
+    },
+    "Tomato__Target_Spot": {
+      "precision": 0.8,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.8615384615384616,
+      "support": 30.0
+    },
+    "Tomato__Tomato_YellowLeaf__Curl_Virus": {
+      "precision": 1.0,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.9285714285714286,
+      "support": 30.0
+    },
+    "Tomato__Tomato_mosaic_virus": {
+      "precision": 0.90625,
+      "recall": 0.9666666666666667,
+      "f1-score": 0.9354838709677419,
+      "support": 30.0
+    },
+    "Tomato_healthy": {
+      "precision": 0.8235294117647058,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.875,
+      "support": 30.0
+    },
+    "accuracy": 0.9066666666666666,
+    "macro avg": {
+      "precision": 0.9165767507398902,
+      "recall": 0.9066666666666667,
+      "f1-score": 0.9055043777826158,
+      "support": 450.0
+    },
+    "weighted avg": {
+      "precision": 0.9165767507398899,
+      "recall": 0.9066666666666666,
+      "f1-score": 0.9055043777826156,
+      "support": 450.0
+    }
+  },
+  "report_text": "                                             precision    recall  f1-score   support\n\n              Pepper__bell___Bacterial_spot     0.9667    0.9667    0.9667        30\n                     Pepper__bell___healthy     0.9677    1.0000    0.9836        30\n                      Potato___Early_blight     1.0000    0.9333    0.9655        30\n                       Potato___Late_blight     0.9655    0.9333    0.9492        30\n                           Potato___healthy     0.9677    1.0000    0.9836        30\n                      Tomato_Bacterial_spot     0.9062    0.9667    0.9355        30\n                        Tomato_Early_blight     0.9048    0.6333    0.7451        30\n                         Tomato_Late_blight     0.8485    0.9333    0.8889        30\n                           Tomato_Leaf_Mold     0.7317    1.0000    0.8451        30\n                  Tomato_Septoria_leaf_spot     0.9600    0.8000    0.8727        30\nTomato_Spider_mites_Two_spotted_spider_mite     1.0000    0.7333    0.8462        30\n                        Tomato__Target_Spot     0.8000    0.9333    0.8615        30\n      Tomato__Tomato_YellowLeaf__Curl_Virus     1.0000    0.8667    0.9286        30\n                Tomato__Tomato_mosaic_virus     0.9062    0.9667    0.9355        30\n                             Tomato_healthy     0.8235    0.9333    0.8750        30\n\n                                   accuracy                         0.9067       450\n                                  macro avg     0.9166    0.9067    0.9055       450\n                               weighted avg     0.9166    0.9067    0.9055       450\n",
+  "confusion_matrix": [
+    [
+      29,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      30,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      28,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      28,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      30,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      29,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      19,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      28,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      30,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      24,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      22,
+      2,
+      0,
+      0,
+      4
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      28,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      2,
+      26,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      29,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      28
+    ]
+  ],
+  "y_true": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14
+  ],
+  "y_pred": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    6,
+    2,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    4,
+    3,
+    3,
+    3,
+    3,
+    3,
+    11,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    9,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    7,
+    5,
+    6,
+    13,
+    6,
+    6,
+    8,
+    14,
+    7,
+    7,
+    13,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    7,
+    8,
+    6,
+    6,
+    5,
+    6,
+    6,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    8,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    8,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    5,
+    9,
+    6,
+    9,
+    9,
+    9,
+    9,
+    8,
+    9,
+    9,
+    13,
+    9,
+    8,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9,
+    9,
+    10,
+    10,
+    10,
+    11,
+    10,
+    8,
+    14,
+    10,
+    14,
+    10,
+    14,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    14,
+    10,
+    8,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    14,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    8,
+    11,
+    11,
+    11,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    11,
+    11,
+    0,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    8,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    8,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    11,
+    14,
+    14,
+    11,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14
+  ],
+  "predictions": [
+    {
+      "file": "Pepper__bell___Bacterial_spot/d563f31e-4aec-4c53-baaa-ab3a3faa2a89___JR_B.Spot 3356.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9980762004852295
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/7bbe08c8-ca13-4cb9-89d1-d6e2c2d8c1cc___JR_B.Spot 3215.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9965804815292358
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/e28b1832-148d-45e5-9934-fc2e73d9db1e___NREC_B.Spot 9214.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.988933265209198
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/5579d5a5-ca6a-4a13-ae08-4f791fdc2e2a___NREC_B.Spot 1826.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9796243906021118
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/0a0dbf1f-1131-496f-b337-169ec6693e6f___NREC_B.Spot 9241.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.8510891795158386
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/cc9a53f1-2279-4427-88e5-559c3975a7c4___NREC_B.Spot 1833.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.6575520038604736
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/15b7cf0f-46ea-4390-a902-375b5b68e3fd___JR_B.Spot 3320.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9841881990432739
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/d966525e-821a-4d1b-a4e5-6bb5b7224cee___NREC_B.Spot 1884.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9947760701179504
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/418e8c33-046a-4056-99a6-83f20ba017fa___JR_B.Spot 3300.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9805198907852173
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/e481606b-2d13-4965-9e0a-44f02a8fa701___JR_B.Spot 8833.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9979240894317627
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/cf32bc40-2a83-423b-b891-17dc4a37bd86___NREC_B.Spot 1899.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.998058021068573
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/50d0c9c6-94ad-46aa-a94f-5a595eb65998___NREC_B.Spot 1946.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9910531640052795
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/7b371f7e-a8de-4b89-812d-0526237a6fea___JR_B.Spot 3404.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.5663177371025085
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/92539ab8-1ccd-43c8-8b1a-d734a031eb5a___JR_B.Spot 3186.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9935490489006042
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/7a901ea0-0ebe-41fa-9585-f74f6ce49d17___JR_B.Spot 8859.JPG",
+      "true_index": 0,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.664915144443512
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/9e49a6d8-11fa-4d46-9f2d-9580da511696___NREC_B.Spot 1930.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9995044469833374
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/8d8df238-9cd0-42b2-bd0f-46ada2ad1798___JR_B.Spot 8927.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.903542697429657
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/0d8445ac-6333-42b0-bf32-950a2dd83908___NREC_B.Spot 1862.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9282154440879822
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/8295d0d3-a2b8-4f32-ac02-7e0ee8f75406___NREC_B.Spot 1790.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9958131909370422
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/3d5f977b-126e-4c4b-b6c2-5d81a69cf2d0___JR_B.Spot 3220.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9990856647491455
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/9023d324-f287-41ab-801b-27cc9a4ee9d5___JR_B.Spot 8981.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9990748167037964
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/b8b69a41-e188-4c81-9724-2664ee8027c5___JR_B.Spot 8954.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9787535667419434
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/cd7b99bc-2c7f-48ac-b799-bc04f5c78277___NREC_B.Spot 1863.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9981195330619812
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/7342a0fb-dccd-40c6-875a-0fcf3986f112___NREC_B.Spot 1824.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9752976298332214
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/9fe2f333-6a6b-48d2-b4d7-e56bda54a2d5___JR_B.Spot 8979.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9997663497924805
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/7beb562a-e1b0-40a2-8b44-fd892051da87___JR_B.Spot 8989.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9483276605606079
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/4d9ffd2f-2740-42f0-9679-c00961ec8f71___NREC_B.Spot 9226.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9966400861740112
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/307ade58-8297-4ca9-b412-7ab20f837dc3___NREC_B.Spot 1861.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9998932480812073
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/d1bb4d5f-d369-4169-bc0e-9850b7f6565a___JR_B.Spot 8916.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9996747374534607
+    },
+    {
+      "file": "Pepper__bell___Bacterial_spot/c2914371-c45f-4b19-bbf2-22832118ca9b___NREC_B.Spot 9112.JPG",
+      "true_index": 0,
+      "predicted_index": 0,
+      "true_label": "Pepper__bell___Bacterial_spot",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.9438033699989319
+    },
+    {
+      "file": "Pepper__bell___healthy/6363ccfb-72d7-4b33-8188-f58cb15cf6cc___JR_HL 7890.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9889922142028809
+    },
+    {
+      "file": "Pepper__bell___healthy/d97b0635-c850-4406-b2d0-3217511b496c___JR_HL 8719.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.8968297839164734
+    },
+    {
+      "file": "Pepper__bell___healthy/430b823b-4972-4577-b032-eb121d241777___JR_HL 5939.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.946689784526825
+    },
+    {
+      "file": "Pepper__bell___healthy/00100ffa-095e-4881-aebf-61fe5af7226e___JR_HL 7886.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9985990524291992
+    },
+    {
+      "file": "Pepper__bell___healthy/615f1ae8-e24a-467c-93eb-c4dd352e3f50___JR_HL 7767.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9942991733551025
+    },
+    {
+      "file": "Pepper__bell___healthy/228e2afd-54a4-4097-8489-916c608361a9___JR_HL 7690.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9993768930435181
+    },
+    {
+      "file": "Pepper__bell___healthy/7503d4d1-fa90-458d-8833-0550b8ce5f07___JR_HL 8694.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9992789030075073
+    },
+    {
+      "file": "Pepper__bell___healthy/27036eec-40be-4b6c-b67d-9ef95b9794cf___JR_HL 8455.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.7017157077789307
+    },
+    {
+      "file": "Pepper__bell___healthy/264428d4-7bc0-437e-b4ee-0ee67a742304___JR_HL 5890.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.984706461429596
+    },
+    {
+      "file": "Pepper__bell___healthy/ee475461-4920-4243-bacd-7a2aa297c80e___JR_HL 7611.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9977086782455444
+    },
+    {
+      "file": "Pepper__bell___healthy/a630dfe7-57e4-4053-9045-5168f8e0a4b3___JR_HL 8044.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9841810464859009
+    },
+    {
+      "file": "Pepper__bell___healthy/8d9192a6-0211-4f07-8b51-5c99e7217f56___JR_HL 7944.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.961345911026001
+    },
+    {
+      "file": "Pepper__bell___healthy/7638357e-5dd1-4991-9301-b5a977ac1ded___JR_HL 8295.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9649689197540283
+    },
+    {
+      "file": "Pepper__bell___healthy/bd0964da-d2b0-4217-8acd-d9db666cbc08___JR_HL 8304.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9664213061332703
+    },
+    {
+      "file": "Pepper__bell___healthy/e3a45ddd-c2f6-466c-b857-bf404a94b65c___JR_HL 8665.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9941619038581848
+    },
+    {
+      "file": "Pepper__bell___healthy/70ca0253-15fc-4525-8a78-65c813bd2992___JR_HL 7807.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9932347536087036
+    },
+    {
+      "file": "Pepper__bell___healthy/126ffc98-0b54-4c66-a827-8bd4b7153259___JR_HL 7833.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9990116357803345
+    },
+    {
+      "file": "Pepper__bell___healthy/99c4f6c3-3aac-45a6-aefa-7711862d7b02___JR_HL 5983.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9670588970184326
+    },
+    {
+      "file": "Pepper__bell___healthy/3c9d9b2b-23de-48f6-98cf-cedf3d86359b___JR_HL 7599.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.8998193740844727
+    },
+    {
+      "file": "Pepper__bell___healthy/c6dfe386-62c3-464d-8815-2a6c08531d11___JR_HL 8538.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9948445558547974
+    },
+    {
+      "file": "Pepper__bell___healthy/4bb66ce9-f62e-40e5-b25c-42e5aa2bcd89___JR_HL 8396.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9855005741119385
+    },
+    {
+      "file": "Pepper__bell___healthy/fc752432-5525-4b28-987c-d8455d5d6f16___JR_HL 7888.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9635299444198608
+    },
+    {
+      "file": "Pepper__bell___healthy/e027b3a9-1975-4a95-bc2b-10d361dd7ca2___JR_HL 8697.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9947361350059509
+    },
+    {
+      "file": "Pepper__bell___healthy/8fb8b9da-da17-44e5-8ce6-05c47cd356f4___JR_HL 8087.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9912318587303162
+    },
+    {
+      "file": "Pepper__bell___healthy/82ff4b81-612a-4d2b-819e-a45353fa0379___JR_HL 7980.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9938724637031555
+    },
+    {
+      "file": "Pepper__bell___healthy/51d2789e-a52a-4f5b-a1fa-20ae9267df78___JR_HL 8130.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.5924277901649475
+    },
+    {
+      "file": "Pepper__bell___healthy/6b3bf816-2c6b-4a71-93a3-9815bea001a6___JR_HL 7935.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9972941875457764
+    },
+    {
+      "file": "Pepper__bell___healthy/f3c34e2d-5b85-44fc-96b6-e23cbae88046___JR_HL 7682.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9944695830345154
+    },
+    {
+      "file": "Pepper__bell___healthy/bfb98507-e9bb-4df4-895c-0a58fbcb7ed8___JR_HL 8391.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.994543194770813
+    },
+    {
+      "file": "Pepper__bell___healthy/8e68dd51-f132-4aed-ad05-1ae0d743d984___JR_HL 8623.JPG",
+      "true_index": 1,
+      "predicted_index": 1,
+      "true_label": "Pepper__bell___healthy",
+      "predicted_label": "Pepper__bell___healthy",
+      "confidence": 0.9996795654296875
+    },
+    {
+      "file": "Potato___Early_blight/b1b3c9c7-a4b9-4048-be45-fa9c5e507c66___RS_Early.B 7466.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9774571061134338
+    },
+    {
+      "file": "Potato___Early_blight/d3240683-1636-4373-84aa-01ce594c19a0___RS_Early.B 8340.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9442457556724548
+    },
+    {
+      "file": "Potato___Early_blight/c43a5fd7-c60c-4a04-9835-bd35b551ec44___RS_Early.B 6701.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9835542440414429
+    },
+    {
+      "file": "Potato___Early_blight/f3483bdf-7adf-40fe-b478-044b7c9daff2___RS_Early.B 7034.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9898909330368042
+    },
+    {
+      "file": "Potato___Early_blight/094fbf4c-da00-4037-82af-03e712d8db47___RS_Early.B 6908.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9892215132713318
+    },
+    {
+      "file": "Potato___Early_blight/97c1fe0d-72f6-421d-bb82-542f0766176c___RS_Early.B 7448.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.8466501235961914
+    },
+    {
+      "file": "Potato___Early_blight/001187a0-57ab-4329-baff-e7246a9edeb0___RS_Early.B 8178.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9612171053886414
+    },
+    {
+      "file": "Potato___Early_blight/08bbd7f1-169d-4e38-946f-8d91589b263e___RS_Early.B 7106.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9994902014732361
+    },
+    {
+      "file": "Potato___Early_blight/3ebc2af4-fe74-4918-b46f-09ec268884ef___RS_Early.B 7856.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9847890138626099
+    },
+    {
+      "file": "Potato___Early_blight/1d038d64-7f3c-4b4d-9b3d-7736f97b59a0___RS_Early.B 7994.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9743626117706299
+    },
+    {
+      "file": "Potato___Early_blight/5abfa537-636f-41df-a833-311a3018aac9___RS_Early.B 8176.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9698897004127502
+    },
+    {
+      "file": "Potato___Early_blight/06ac6596-8d65-46dd-a343-a2209f3480e4___RS_Early.B 6921.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.8840218782424927
+    },
+    {
+      "file": "Potato___Early_blight/ad8c76f3-16b3-4d7f-a9e9-cbec8c398d34___RS_Early.B 6694.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9663887619972229
+    },
+    {
+      "file": "Potato___Early_blight/f9580dc3-d5d9-4990-a64d-3974a9d1c687___RS_Early.B 8755.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9042371511459351
+    },
+    {
+      "file": "Potato___Early_blight/495e73a1-0f61-43a6-b539-d7f74e3fbf71___RS_Early.B 8245.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9591706991195679
+    },
+    {
+      "file": "Potato___Early_blight/d0221e13-4d76-45e5-9cd1-7cac63833f52___RS_Early.B 7191.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9745152592658997
+    },
+    {
+      "file": "Potato___Early_blight/993bc916-4517-45cf-a5bd-90ee95dd35fd___RS_Early.B 8452.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.986473560333252
+    },
+    {
+      "file": "Potato___Early_blight/c53d85d7-bddb-422b-955c-6842cce9a927___RS_Early.B 7253.JPG",
+      "true_index": 2,
+      "predicted_index": 6,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.44638630747795105
+    },
+    {
+      "file": "Potato___Early_blight/85a38441-6df7-4401-9905-fba74ebfa717___RS_Early.B 8230.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9954226613044739
+    },
+    {
+      "file": "Potato___Early_blight/232c8d25-3bfe-41ea-b24f-2b3629a0253a___RS_Early.B 9200.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.997427761554718
+    },
+    {
+      "file": "Potato___Early_blight/7486e823-64f7-4e43-ab51-26261b077fc2___RS_Early.B 6785.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9533188343048096
+    },
+    {
+      "file": "Potato___Early_blight/d825093a-2bd7-458d-a9a1-036db6c08dec___RS_Early.B 9018.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9993748664855957
+    },
+    {
+      "file": "Potato___Early_blight/31d0ecc8-045d-4a4a-ac33-431556c83e4c___RS_Early.B 8692.JPG",
+      "true_index": 2,
+      "predicted_index": 3,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.45777690410614014
+    },
+    {
+      "file": "Potato___Early_blight/65f6e2f1-300b-42f0-bcc8-467753411947___RS_Early.B 7591.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9849504232406616
+    },
+    {
+      "file": "Potato___Early_blight/7584a5b8-b701-4255-9dde-a60b6442cc37___RS_Early.B 9154.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.8582326173782349
+    },
+    {
+      "file": "Potato___Early_blight/477c3ef0-ab1e-44fb-852d-6b3ce74c93a2___RS_Early.B 7257.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.8857911825180054
+    },
+    {
+      "file": "Potato___Early_blight/98de061b-990e-4395-a50a-975c0fab5a4a___RS_Early.B 7394.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.97630774974823
+    },
+    {
+      "file": "Potato___Early_blight/f48fc3b4-b7e7-4ad5-a651-0bf61a5173ff___RS_Early.B 8597.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9079416990280151
+    },
+    {
+      "file": "Potato___Early_blight/83f244c6-e33e-4fbb-a9ef-3996cd25a547___RS_Early.B 8700.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.9601256251335144
+    },
+    {
+      "file": "Potato___Early_blight/adc573cd-bbf3-4742-9bd5-1e3e6f27319a___RS_Early.B 8685.JPG",
+      "true_index": 2,
+      "predicted_index": 2,
+      "true_label": "Potato___Early_blight",
+      "predicted_label": "Potato___Early_blight",
+      "confidence": 0.997067928314209
+    },
+    {
+      "file": "Potato___Late_blight/f4e6847d-d381-4849-9ff1-930cfb597d08___RS_LB 5097.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9907317161560059
+    },
+    {
+      "file": "Potato___Late_blight/fe93615b-4160-4956-a65c-cdbc79af2052___RS_LB 5131.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9887027740478516
+    },
+    {
+      "file": "Potato___Late_blight/5759c134-1965-4dd2-b71a-4eef4048f962___RS_LB 3975.JPG",
+      "true_index": 3,
+      "predicted_index": 4,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.6541703343391418
+    },
+    {
+      "file": "Potato___Late_blight/2846161c-9ac0-4ef3-b563-aee344dac80d___RS_LB 4851.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9815506339073181
+    },
+    {
+      "file": "Potato___Late_blight/36d2885d-0bc7-4346-8a13-383e1533a68c___RS_LB 5098.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9449463486671448
+    },
+    {
+      "file": "Potato___Late_blight/f07f6548-70d6-4f8c-81e6-d8193c19061b___RS_LB 4984.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9976018667221069
+    },
+    {
+      "file": "Potato___Late_blight/6637f5da-44b1-43bc-9678-1f1188f1ed7c___RS_LB 4796.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9347864985466003
+    },
+    {
+      "file": "Potato___Late_blight/9c0e8576-642f-47a6-a053-c52e9025b7f6___RS_LB 4134.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9432352185249329
+    },
+    {
+      "file": "Potato___Late_blight/94ebce3c-2945-44a4-aa81-1abe8e4beea2___RS_LB 3953.JPG",
+      "true_index": 3,
+      "predicted_index": 11,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.3228282928466797
+    },
+    {
+      "file": "Potato___Late_blight/74d51dd6-7990-4d3a-95c6-5d67fac5cdad___RS_LB 2578.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.7321386933326721
+    },
+    {
+      "file": "Potato___Late_blight/9475f5bf-607b-4091-8a6d-8f09921478a7___RS_LB 5191.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.5887953042984009
+    },
+    {
+      "file": "Potato___Late_blight/c6c8843f-6b36-472a-9a87-bf1a235e08b6___RS_LB 5136.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9934713840484619
+    },
+    {
+      "file": "Potato___Late_blight/3221ccec-f264-4046-8252-77a8a357562b___RS_LB 4637.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.971179187297821
+    },
+    {
+      "file": "Potato___Late_blight/727dd407-7a8b-4edb-9697-726ae947bd63___RS_LB 2646.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9862870573997498
+    },
+    {
+      "file": "Potato___Late_blight/42cd0719-199a-40a8-aaa0-228bb80e1832___RS_LB 4440.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9306586980819702
+    },
+    {
+      "file": "Potato___Late_blight/b598f9a7-b582-4fef-9c3d-cc985f2f9c03___RS_LB 3294.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.8949447870254517
+    },
+    {
+      "file": "Potato___Late_blight/3c20c90a-788c-4d06-acdb-107f695d901b___RS_LB 4856.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9981477856636047
+    },
+    {
+      "file": "Potato___Late_blight/b89a9e11-b184-4b4d-bc56-5f27a2626982___RS_LB 2512.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9699661135673523
+    },
+    {
+      "file": "Potato___Late_blight/2d8cbe58-280e-4c93-9b06-26f4279eb4d8___RS_LB 2855.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9893946051597595
+    },
+    {
+      "file": "Potato___Late_blight/63ec8c33-368c-433d-8953-f28f30e5985f___RS_LB 2943.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9933642148971558
+    },
+    {
+      "file": "Potato___Late_blight/3f6db123-4a6e-4b8a-9b26-954ccf29cc3c___RS_LB 4695.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9987179040908813
+    },
+    {
+      "file": "Potato___Late_blight/c4c1c25f-0594-4c81-a1e0-a609ee1f0808___RS_LB 2653.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9647179841995239
+    },
+    {
+      "file": "Potato___Late_blight/87c99be5-a930-410f-8529-e79e030cba0c___RS_LB 5294.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9998135566711426
+    },
+    {
+      "file": "Potato___Late_blight/e28b4ead-09f5-4e34-a162-0e0268f53763___RS_LB 2583.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9877602458000183
+    },
+    {
+      "file": "Potato___Late_blight/4cd2f7ef-e3aa-4b2a-b382-6fea00bfd070___RS_LB 5006.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.4062923789024353
+    },
+    {
+      "file": "Potato___Late_blight/d2ff230f-99a5-4dc5-968c-246d772788af___RS_LB 3279.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.984436571598053
+    },
+    {
+      "file": "Potato___Late_blight/d66ee513-26cc-4676-8aeb-9902e0969d2b___RS_LB 3999.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.7932862043380737
+    },
+    {
+      "file": "Potato___Late_blight/520c0e9a-1ba4-44fa-aa60-dcdf018a00b3___RS_LB 2850.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9946277141571045
+    },
+    {
+      "file": "Potato___Late_blight/d1a28228-aae8-4348-b7a1-545dcf72d842___RS_LB 3875.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.899808943271637
+    },
+    {
+      "file": "Potato___Late_blight/929dd251-5fbb-406f-9313-a71e5f96b31c___RS_LB 4781.JPG",
+      "true_index": 3,
+      "predicted_index": 3,
+      "true_label": "Potato___Late_blight",
+      "predicted_label": "Potato___Late_blight",
+      "confidence": 0.9771504402160645
+    },
+    {
+      "file": "Potato___healthy/b61b9d33-59ea-41b0-a554-c382eb6128c5___RS_HL 1919.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9990081787109375
+    },
+    {
+      "file": "Potato___healthy/6f4b9acd-f34d-4771-a6bc-2001de2dd1d3___RS_HL 1898.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9887245893478394
+    },
+    {
+      "file": "Potato___healthy/9b5be0c5-7d7e-493d-88ba-c721c85f73ca___RS_HL 5405.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9843950271606445
+    },
+    {
+      "file": "Potato___healthy/f0fdde26-78b4-46f0-9eb8-7c2a743d34aa___RS_HL 4165.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.743073582649231
+    },
+    {
+      "file": "Potato___healthy/7948ada9-eabc-4cb7-a579-b73e938eb716___RS_HL 4185.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9401195049285889
+    },
+    {
+      "file": "Potato___healthy/b8b7b98a-eb1a-4213-9b0b-aeef4df427e8___RS_HL 1858.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9994232058525085
+    },
+    {
+      "file": "Potato___healthy/f30983c0-6e20-43cc-8672-4622ca34c830___RS_HL 1949.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9788635969161987
+    },
+    {
+      "file": "Potato___healthy/e51367c1-d582-45e3-acf6-b0e652b43d3a___RS_HL 1873.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9974105358123779
+    },
+    {
+      "file": "Potato___healthy/a5050bde-febc-4931-b31d-45c9652df318___RS_HL 5373.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.857587993144989
+    },
+    {
+      "file": "Potato___healthy/ff700844-68ad-4e99-8427-58a39c07f817___RS_HL 1860.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9988960027694702
+    },
+    {
+      "file": "Potato___healthy/5fcbde8f-52af-4963-b324-ff7f4dd6bd4c___RS_HL 1762.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9965027570724487
+    },
+    {
+      "file": "Potato___healthy/30937333-8898-4634-8c00-af57d3020ba6___RS_HL 1922.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9951728582382202
+    },
+    {
+      "file": "Potato___healthy/8665efd2-fa3d-45f8-b1c0-746c99fb7d1e___RS_HL 1924.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9931830167770386
+    },
+    {
+      "file": "Potato___healthy/a4d1d8cb-26a2-413f-a229-021e2eea87ac___RS_HL 1819.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9820104241371155
+    },
+    {
+      "file": "Potato___healthy/f66af6c0-6fc6-4020-b1de-a73685d497c2___RS_HL 4181.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9339755773544312
+    },
+    {
+      "file": "Potato___healthy/2d98cbc8-cbe6-423c-b2ab-3f7f8bcea5d5___RS_HL 1945.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9644368886947632
+    },
+    {
+      "file": "Potato___healthy/b89db9d3-a413-4781-bc88-5f6c2085ab5f___RS_HL 1909.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9959256649017334
+    },
+    {
+      "file": "Potato___healthy/71c06efe-089f-49b3-beed-095bd7640e32___RS_HL 1947.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9712998867034912
+    },
+    {
+      "file": "Potato___healthy/d1752ed4-a0a7-4075-917d-205c0e785dcf___RS_HL 1911.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9900599718093872
+    },
+    {
+      "file": "Potato___healthy/de9a8669-d437-40f0-aa56-fe2d8276a1e0___RS_HL 1910.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9961649179458618
+    },
+    {
+      "file": "Potato___healthy/369479a9-3c28-4d77-8731-9ae54e719af3___RS_HL 1785.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9829791188240051
+    },
+    {
+      "file": "Potato___healthy/c9ad5c9a-c9b0-4e07-9e03-9e9edfd58a19___RS_HL 1755.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9968178868293762
+    },
+    {
+      "file": "Potato___healthy/20ac28d6-5708-4e31-8676-1b1979de094f___RS_HL 1735.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9992800951004028
+    },
+    {
+      "file": "Potato___healthy/03da9931-e514-4cc7-b04a-8f474a133ce5___RS_HL 1830.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9729896783828735
+    },
+    {
+      "file": "Potato___healthy/1a1184f8-c414-4ead-a4c4-41ae78e29a82___RS_HL 1971.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9704340100288391
+    },
+    {
+      "file": "Potato___healthy/a02b6205-b40a-4178-8b34-3494f84b9d1f___RS_HL 1958.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9837583303451538
+    },
+    {
+      "file": "Potato___healthy/e34e563f-7a4a-4b44-bdf2-b6f96cbcd929___RS_HL 5370.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.8017235398292542
+    },
+    {
+      "file": "Potato___healthy/111cd9d8-4d27-4225-be9e-d29b21cf56b9___RS_HL 5419.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.9724248051643372
+    },
+    {
+      "file": "Potato___healthy/5d505af8-3f73-4781-980c-a4a696a04550___RS_HL 1934.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.7980073094367981
+    },
+    {
+      "file": "Potato___healthy/b9ea902d-e557-4fa5-893b-39a7a57c0121___RS_HL 1893.JPG",
+      "true_index": 4,
+      "predicted_index": 4,
+      "true_label": "Potato___healthy",
+      "predicted_label": "Potato___healthy",
+      "confidence": 0.982709527015686
+    },
+    {
+      "file": "Tomato_Bacterial_spot/a5742cd1-e1a5-4967-a136-c9a2db864fe3___UF.GRC_BS_Lab Leaf 8982.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.9772470593452454
+    },
+    {
+      "file": "Tomato_Bacterial_spot/d96166b8-e301-4613-adbb-66eb792a16b6___GCREC_Bact.Sp 3792.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.8380569219589233
+    },
+    {
+      "file": "Tomato_Bacterial_spot/e75acbf3-725b-4433-bc3e-542e0b931cf6___UF.GRC_BS_Lab Leaf 0474.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.64054936170578
+    },
+    {
+      "file": "Tomato_Bacterial_spot/d3fddfab-b65c-43e2-bceb-e72ce73f33eb___GCREC_Bact.Sp 3810.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.9962490797042847
+    },
+    {
+      "file": "Tomato_Bacterial_spot/707dc081-60c2-4362-a91e-6c6eacf4d081___GCREC_Bact.Sp 5613.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.9968265295028687
+    },
+    {
+      "file": "Tomato_Bacterial_spot/91d2b551-c853-41b2-80b5-f982f6c30553___GCREC_Bact.Sp 2983.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.9419106841087341
+    },
+    {
+      "file": "Tomato_Bacterial_spot/7236e643-bb0f-475e-8bb6-41981fc696f4___UF.GRC_BS_Lab Leaf 8747.JPG",
+      "true_index": 5,
+      "predicted_index": 9,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.8205932378768921
+    },
+    {
+      "file": "Tomato_Bacterial_spot/31da1b43-834a-4fb0-8347-e9f27f65fa1f___UF.GRC_BS_Lab Leaf 0836.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.969185471534729
+    },
+    {
+      "file": "Tomato_Bacterial_spot/eaea12c1-998c-4853-ba5e-95c8cb08c4b9___GCREC_Bact.Sp 3324.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.9721834063529968
+    },
+    {
+      "file": "Tomato_Bacterial_spot/8f566d4c-a8b6-4ae0-a599-446cbbebecd4___GCREC_Bact.Sp 3405.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.8463799953460693
+    },
+    {
+      "file": "Tomato_Bacterial_spot/cfd1650b-7007-4916-a41f-9587d4bc4bfa___GCREC_Bact.Sp 5568.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.7662861347198486
+    },
+    {
+      "file": "Tomato_Bacterial_spot/4204bf83-0f95-44e0-a372-9f4f23caf9b8___GCREC_Bact.Sp 6263.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.9265820384025574
+    },
+    {
+      "file": "Tomato_Bacterial_spot/0ab9c705-f29e-45ac-b786-9549b3c38f16___GCREC_Bact.Sp 3223.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.9888147115707397
+    },
+    {
+      "file": "Tomato_Bacterial_spot/75f2019c-7bbb-4f1d-ba4f-26464aec3062___GCREC_Bact.Sp 3474.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.9698588252067566
+    },
+    {
+      "file": "Tomato_Bacterial_spot/e05eca68-134a-45a5-a6ed-d4b80459528f___GCREC_Bact.Sp 3420.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.966156005859375
+    },
+    {
+      "file": "Tomato_Bacterial_spot/2f48b422-e9b2-4143-8b7f-c44cea6fb2fd___UF.GRC_BS_Lab Leaf 0450.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.834695041179657
+    },
+    {
+      "file": "Tomato_Bacterial_spot/a3df33d5-b1e6-49f8-93c4-013e47b5acc3___GCREC_Bact.Sp 3044.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.9353505969047546
+    },
+    {
+      "file": "Tomato_Bacterial_spot/13b8bbd3-32cf-4c69-bffb-870b7b6720e0___UF.GRC_BS_Lab Leaf 8890.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.7041134834289551
+    },
+    {
+      "file": "Tomato_Bacterial_spot/12168e10-ea77-4d6b-841e-bfe48e141cee___GCREC_Bact.Sp 6085.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.9488152265548706
+    },
+    {
+      "file": "Tomato_Bacterial_spot/bea776af-8c63-4376-a7f2-7cbd0e15e743___GCREC_Bact.Sp 3631.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.4023219048976898
+    },
+    {
+      "file": "Tomato_Bacterial_spot/1ade5ae9-2b62-4d53-86ae-fee9d3d9a7e9___UF.GRC_BS_Lab Leaf 0777.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.9491557478904724
+    },
+    {
+      "file": "Tomato_Bacterial_spot/c693b071-ccf9-40e9-97f9-341c2da3c5b1___GCREC_Bact.Sp 3751.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.9392384886741638
+    },
+    {
+      "file": "Tomato_Bacterial_spot/d2e4bb70-7fa8-4ff3-87d7-77b10e0727bc___GCREC_Bact.Sp 3306.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.5874558687210083
+    },
+    {
+      "file": "Tomato_Bacterial_spot/7e2d95d8-61e7-4b3f-8425-a6bfd53e8490___UF.GRC_BS_Lab Leaf 0402.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.5751742720603943
+    },
+    {
+      "file": "Tomato_Bacterial_spot/2a4a8942-9d1d-4989-a58b-a02f1cc2256a___GCREC_Bact.Sp 2970.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.9517213106155396
+    },
+    {
+      "file": "Tomato_Bacterial_spot/f1984cc1-26df-40dc-abf2-9bbd9b879b37___GCREC_Bact.Sp 6141.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.6026802062988281
+    },
+    {
+      "file": "Tomato_Bacterial_spot/389409f8-30ae-46b3-960f-7b4936fc8ca5___GCREC_Bact.Sp 6021.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.8286629915237427
+    },
+    {
+      "file": "Tomato_Bacterial_spot/50950fff-ebce-4985-bf46-713a0cdae29c___GCREC_Bact.Sp 5589.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.8981583714485168
+    },
+    {
+      "file": "Tomato_Bacterial_spot/37592d17-06d6-492a-a469-3726396ad71b___GCREC_Bact.Sp 5560.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.820099949836731
+    },
+    {
+      "file": "Tomato_Bacterial_spot/113b3262-b784-450e-8fe7-6f35652f073d___GCREC_Bact.Sp 3153.JPG",
+      "true_index": 5,
+      "predicted_index": 5,
+      "true_label": "Tomato_Bacterial_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.9966676831245422
+    },
+    {
+      "file": "Tomato_Early_blight/8c757ec5-a977-412f-bf8e-208fefc79063___RS_Erly.B 9504.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.848035454750061
+    },
+    {
+      "file": "Tomato_Early_blight/9664a85d-6c90-46d7-98e6-cbf1b99cc53e___RS_Erly.B 7503.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.8400284051895142
+    },
+    {
+      "file": "Tomato_Early_blight/f62e84ae-2bd4-4b15-918a-639c0470c25d___RS_Erly.B 7761.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.42838945984840393
+    },
+    {
+      "file": "Tomato_Early_blight/06d6d114-8d26-43eb-b79f-44218bbfa0d1___RS_Erly.B 9441.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.8444546461105347
+    },
+    {
+      "file": "Tomato_Early_blight/957be08a-9b4f-4c28-9908-622fdb996f1c___RS_Erly.B 7591.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.763083815574646
+    },
+    {
+      "file": "Tomato_Early_blight/a1d275d1-5405-4829-9328-4225ffe69506___RS_Erly.B 7515.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.9768151044845581
+    },
+    {
+      "file": "Tomato_Early_blight/535c3c4f-c082-4dd7-a98b-2e16cb377d89___RS_Erly.B 7770.JPG",
+      "true_index": 6,
+      "predicted_index": 7,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.34368765354156494
+    },
+    {
+      "file": "Tomato_Early_blight/3596fc7f-e79e-44f5-862a-f177db2960f6___RS_Erly.B 6386.JPG",
+      "true_index": 6,
+      "predicted_index": 5,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.6817733645439148
+    },
+    {
+      "file": "Tomato_Early_blight/765d8e2a-ebad-4fd5-a968-a9d21986268d___RS_Erly.B 6481.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.6799391508102417
+    },
+    {
+      "file": "Tomato_Early_blight/c5ab9d87-f1bf-4fce-8133-c80ac2d52dd5___RS_Erly.B 7849.JPG",
+      "true_index": 6,
+      "predicted_index": 13,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.2861233055591583
+    },
+    {
+      "file": "Tomato_Early_blight/04e38351-80bc-4260-8a4d-187f7817c3e5___RS_Erly.B 7439.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.9631119966506958
+    },
+    {
+      "file": "Tomato_Early_blight/eb94014e-83b7-46a4-9b1a-7cae23876302___RS_Erly.B 7471.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.6795641779899597
+    },
+    {
+      "file": "Tomato_Early_blight/3ecc0dc0-87b2-4f7f-894a-8b9d17d7f25d___RS_Erly.B 7413.JPG",
+      "true_index": 6,
+      "predicted_index": 8,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.7249153256416321
+    },
+    {
+      "file": "Tomato_Early_blight/9b617d8b-b252-4a29-9af5-10ea563eb785___RS_Erly.B 7707.JPG",
+      "true_index": 6,
+      "predicted_index": 14,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.8670573234558105
+    },
+    {
+      "file": "Tomato_Early_blight/3f35dad7-734b-46ee-8193-09fd3c8562ff___RS_Erly.B 7600.JPG",
+      "true_index": 6,
+      "predicted_index": 7,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.563478946685791
+    },
+    {
+      "file": "Tomato_Early_blight/49c8f57f-3418-45db-b807-6192c20dfc6a___RS_Erly.B 7784.JPG",
+      "true_index": 6,
+      "predicted_index": 7,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.6693111658096313
+    },
+    {
+      "file": "Tomato_Early_blight/d099777c-8b33-4924-af9e-d3dd96c2de37___RS_Erly.B 7790.JPG",
+      "true_index": 6,
+      "predicted_index": 13,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.43148791790008545
+    },
+    {
+      "file": "Tomato_Early_blight/803ac166-670f-4cad-9f37-e36eea3118d9___RS_Erly.B 9457.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.5855250358581543
+    },
+    {
+      "file": "Tomato_Early_blight/467b230b-ca0c-4f44-bf22-3e6e0454d51a___RS_Erly.B 9429.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.958318293094635
+    },
+    {
+      "file": "Tomato_Early_blight/e9e56650-8172-4a98-8100-72e79a3a5858___RS_Erly.B 7481.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.788790762424469
+    },
+    {
+      "file": "Tomato_Early_blight/6a6f1594-62fa-487a-a51f-38b86e7483cf___RS_Erly.B 6360.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.6286601424217224
+    },
+    {
+      "file": "Tomato_Early_blight/f547a0f4-912a-45ec-81aa-371ad12ecacf___RS_Erly.B 7608.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.4706604480743408
+    },
+    {
+      "file": "Tomato_Early_blight/6c5baf51-ae97-41dd-9728-1995177e3b6a___RS_Erly.B 7723.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.6159947514533997
+    },
+    {
+      "file": "Tomato_Early_blight/51708fa7-4619-4957-bfc6-8e422ee23a99___RS_Erly.B 7630.JPG",
+      "true_index": 6,
+      "predicted_index": 7,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.4917429983615875
+    },
+    {
+      "file": "Tomato_Early_blight/3a54f866-42a6-4ad8-8752-97c62aa1bc18___RS_Erly.B 6485.JPG",
+      "true_index": 6,
+      "predicted_index": 8,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.8850619196891785
+    },
+    {
+      "file": "Tomato_Early_blight/ac6a9426-691d-46f4-941a-6637659bbbf7___RS_Erly.B 9394.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.4447023570537567
+    },
+    {
+      "file": "Tomato_Early_blight/1c9e0f1a-7314-449c-9482-9059684ac82d___RS_Erly.B 7840.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.552421510219574
+    },
+    {
+      "file": "Tomato_Early_blight/dc4e5770-ed70-4ff3-b61d-a6296faae7e1___RS_Erly.B 7568.JPG",
+      "true_index": 6,
+      "predicted_index": 5,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.7485570907592773
+    },
+    {
+      "file": "Tomato_Early_blight/f0eb00dc-22da-4c8b-b86d-72157ea9e71d___RS_Erly.B 9610.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.7427629232406616
+    },
+    {
+      "file": "Tomato_Early_blight/0bb52721-51a6-4343-8c54-de15cedf8e5c___RS_Erly.B 7572.JPG",
+      "true_index": 6,
+      "predicted_index": 6,
+      "true_label": "Tomato_Early_blight",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.9412928819656372
+    },
+    {
+      "file": "Tomato_Late_blight/ee26dd7d-3a4e-44c1-af1a-34dfdaa3d585___GHLB_PS Leaf 1.2 Day 7.jpg",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9958705306053162
+    },
+    {
+      "file": "Tomato_Late_blight/126e12d3-3d51-4ba6-861f-e6ed09ee951f___GHLB2 Leaf 9021.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9947652816772461
+    },
+    {
+      "file": "Tomato_Late_blight/f37f0878-31f2-402b-81c6-dd1af6e15899___RS_Late.B 5222.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.6375209093093872
+    },
+    {
+      "file": "Tomato_Late_blight/18568211-18d7-453f-84a4-d22e2088ec33___RS_Late.B 5239.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.6388626098632812
+    },
+    {
+      "file": "Tomato_Late_blight/e7a25945-e168-4539-8324-7465310c2795___GHLB2 Leaf 8958.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9364597201347351
+    },
+    {
+      "file": "Tomato_Late_blight/079f7695-a60e-4a35-a1f3-fbe71cf19126___GHLB2 Leaf 8783.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9929585456848145
+    },
+    {
+      "file": "Tomato_Late_blight/d346f7f2-7cc9-43ef-bfcf-fbfd9d9db724___GHLB_PS Leaf 18 Day 8.jpg",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9993625283241272
+    },
+    {
+      "file": "Tomato_Late_blight/98586693-fe1f-4ea0-8e27-4501b61cf09b___GHLB_PS Leaf 23.5 Day 13.jpg",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9985840320587158
+    },
+    {
+      "file": "Tomato_Late_blight/7048f52e-7b68-43d2-81d7-a146d5a73407___GHLB2 Leaf 8708.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9965379238128662
+    },
+    {
+      "file": "Tomato_Late_blight/7b8c983a-c159-4f79-86aa-13c8223155fd___RS_Late.B 5156.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.7096216678619385
+    },
+    {
+      "file": "Tomato_Late_blight/2dab6657-8b94-41ea-b610-74895532efe0___RS_Late.B 5567.JPG",
+      "true_index": 7,
+      "predicted_index": 8,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.6153704524040222
+    },
+    {
+      "file": "Tomato_Late_blight/147539f7-632d-42ee-a19a-071b9c7c85f2___RS_Late.B 5140.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.7907079458236694
+    },
+    {
+      "file": "Tomato_Late_blight/cf17b854-3985-4aaa-a044-9babdc780668___GHLB2 Leaf 8775.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9912784695625305
+    },
+    {
+      "file": "Tomato_Late_blight/5d8d97e7-8a2f-459f-a610-c26af46c7f5f___GHLB_PS Leaf 25.2 Day 16.jpg",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9939953088760376
+    },
+    {
+      "file": "Tomato_Late_blight/aae679f7-4b9b-400a-8d5d-02f1c5f7a050___GHLB2 Leaf 8669.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9502561688423157
+    },
+    {
+      "file": "Tomato_Late_blight/860b6c56-686a-4f21-8ae3-d7e45acd760b___GHLB_PS Leaf 25 Day 16.jpg",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9912925362586975
+    },
+    {
+      "file": "Tomato_Late_blight/05a34df9-4fc9-460a-b675-3c4a37cfdf4c___GHLB2 Leaf 8917.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9731881618499756
+    },
+    {
+      "file": "Tomato_Late_blight/6cc5252d-0b5d-4f06-969d-8317150c355d___RS_Late.B 5012.JPG",
+      "true_index": 7,
+      "predicted_index": 8,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.4609466791152954
+    },
+    {
+      "file": "Tomato_Late_blight/d91538d7-1e25-442d-8963-86fec71a6545___RS_Late.B 6365.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.4863584041595459
+    },
+    {
+      "file": "Tomato_Late_blight/9a298d6c-723d-483c-bec6-c64f99065677___RS_Late.B 6956.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9415079951286316
+    },
+    {
+      "file": "Tomato_Late_blight/e20107e7-137f-400e-817f-5dc4c58e5d70___GHLB2 Leaf 8677.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9936010837554932
+    },
+    {
+      "file": "Tomato_Late_blight/c215da6d-139c-40b7-aeae-41138ff98a1c___GHLB2 Leaf 8932.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.988389790058136
+    },
+    {
+      "file": "Tomato_Late_blight/6f7a49a1-db0e-486f-b836-51827df940df___GHLB2 Leaf 8735.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9912818074226379
+    },
+    {
+      "file": "Tomato_Late_blight/475ea338-8e88-4164-b2e3-e8b386df415d___RS_Late.B 6362.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.6534897685050964
+    },
+    {
+      "file": "Tomato_Late_blight/c95eaeb8-7673-4411-bbbe-b2464526f303___RS_Late.B 6233.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.912519097328186
+    },
+    {
+      "file": "Tomato_Late_blight/fcd37e39-9a92-4896-8673-af928a380078___GHLB2 Leaf 8733.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9670284390449524
+    },
+    {
+      "file": "Tomato_Late_blight/c68a177e-bd9d-4995-a8ab-9ef75bcef2fe___GHLB2 Leaf 8995.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9777747392654419
+    },
+    {
+      "file": "Tomato_Late_blight/b88f6060-ca8b-4c4d-bd4c-1ec1ae186b71___GHLB2 Leaf 8711.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.861162543296814
+    },
+    {
+      "file": "Tomato_Late_blight/121097dd-b0cb-436b-9b2f-7dab30c86872___GHLB_PS Leaf 37.1 Day 13.jpg",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9989221692085266
+    },
+    {
+      "file": "Tomato_Late_blight/fcfe91fc-c578-4c6d-8fe4-b8ff4cfdb766___GHLB2 Leaf 75.1.JPG",
+      "true_index": 7,
+      "predicted_index": 7,
+      "true_label": "Tomato_Late_blight",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.9934787154197693
+    },
+    {
+      "file": "Tomato_Leaf_Mold/4cec5b1e-14d2-4b8f-ab8a-57b68758f30c___Crnl_L.Mold 8715.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.7068386673927307
+    },
+    {
+      "file": "Tomato_Leaf_Mold/fec6ddb1-599d-4de0-905c-c4e526021314___Crnl_L.Mold 8895.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.45999041199684143
+    },
+    {
+      "file": "Tomato_Leaf_Mold/6a43fd4b-43d1-4539-8878-ad72d770b74f___Crnl_L.Mold 9039.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9973464012145996
+    },
+    {
+      "file": "Tomato_Leaf_Mold/0ac36661-a47d-47ff-8948-42edec033b87___Crnl_L.Mold 9127.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9964324235916138
+    },
+    {
+      "file": "Tomato_Leaf_Mold/962f3d89-f439-46ee-b4bb-65409ee76fe1___Crnl_L.Mold 6914.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9978671073913574
+    },
+    {
+      "file": "Tomato_Leaf_Mold/4d65825b-367d-4f8e-aa17-c19ee1e631e1___Crnl_L.Mold 6954.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9993095993995667
+    },
+    {
+      "file": "Tomato_Leaf_Mold/d90f334c-18c3-4b20-903e-e51f57d8704d___Crnl_L.Mold 6935.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9672964215278625
+    },
+    {
+      "file": "Tomato_Leaf_Mold/502ece2c-0321-467d-ae3e-071a08f5794f___Crnl_L.Mold 9174.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9350908994674683
+    },
+    {
+      "file": "Tomato_Leaf_Mold/6e6da01b-c5b7-4050-b502-4d284330b11b___Crnl_L.Mold 6729.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9827778935432434
+    },
+    {
+      "file": "Tomato_Leaf_Mold/546f348a-359a-4cff-8cdd-c87ecb1cec95___Crnl_L.Mold 6873.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9917032122612
+    },
+    {
+      "file": "Tomato_Leaf_Mold/bdc4e19c-87fc-4d84-8de7-a8663aed37f7___Crnl_L.Mold 8741.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.6212805509567261
+    },
+    {
+      "file": "Tomato_Leaf_Mold/4505fb9f-e46f-4d8f-b63e-b7d389811dab___Crnl_L.Mold 6907.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9669933319091797
+    },
+    {
+      "file": "Tomato_Leaf_Mold/bf1b824c-7a99-45a5-9b60-5da58b3fe47c___Crnl_L.Mold 8759.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.8659195899963379
+    },
+    {
+      "file": "Tomato_Leaf_Mold/bfafcb99-32f1-4310-a844-a0a0231afdbe___Crnl_L.Mold 6643.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9900099039077759
+    },
+    {
+      "file": "Tomato_Leaf_Mold/d677f9dd-7f27-44de-a0ad-b8e582ee63a8___Crnl_L.Mold 6946.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9988980293273926
+    },
+    {
+      "file": "Tomato_Leaf_Mold/6e41b201-9283-4da4-b7b1-1f2b37716142___Crnl_L.Mold 6955.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9944525361061096
+    },
+    {
+      "file": "Tomato_Leaf_Mold/73045f6c-d0c7-43a3-a229-1f521a7ff33f___Crnl_L.Mold 8851.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.860045850276947
+    },
+    {
+      "file": "Tomato_Leaf_Mold/0ed11606-167f-4951-9a07-ffaa7e2aa88a___Crnl_L.Mold 6831.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.8939619064331055
+    },
+    {
+      "file": "Tomato_Leaf_Mold/d8cbf2c3-f99f-4af9-a8a2-9d88e2ed0524___Crnl_L.Mold 7022.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9940511584281921
+    },
+    {
+      "file": "Tomato_Leaf_Mold/4c7e93da-6c5a-4423-89f3-db15242fd53a___Crnl_L.Mold 8703.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9786964058876038
+    },
+    {
+      "file": "Tomato_Leaf_Mold/0ae36892-5cb1-476e-8a51-b7fd8183a535___Crnl_L.Mold 6728.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9950868487358093
+    },
+    {
+      "file": "Tomato_Leaf_Mold/b5bff13f-7b25-4725-af06-11769005cda1___Crnl_L.Mold 8930.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9568520188331604
+    },
+    {
+      "file": "Tomato_Leaf_Mold/87e7e3be-acc9-45bf-a843-5528b1ec9484___Crnl_L.Mold 8924.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.857786238193512
+    },
+    {
+      "file": "Tomato_Leaf_Mold/ceece521-8e6b-4f7b-b4bb-54369494e7a3___Crnl_L.Mold 6931.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9248051643371582
+    },
+    {
+      "file": "Tomato_Leaf_Mold/0f1ce7cf-da72-4ddb-9bdb-a1af620537c6___Crnl_L.Mold 6840.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9978955984115601
+    },
+    {
+      "file": "Tomato_Leaf_Mold/61cade04-60b3-44bf-88f3-88583c90f49e___Crnl_L.Mold 9148.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9417153596878052
+    },
+    {
+      "file": "Tomato_Leaf_Mold/128f8a8f-257f-4fb1-b4c3-4eeb524af355___Crnl_L.Mold 8985.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.7175405025482178
+    },
+    {
+      "file": "Tomato_Leaf_Mold/7e68a820-e070-4e47-ad93-48ada05c80b2___Crnl_L.Mold 9112.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9548091292381287
+    },
+    {
+      "file": "Tomato_Leaf_Mold/8f901183-1af4-402b-87b7-d3838d598ce9___Crnl_L.Mold 9006.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9396204352378845
+    },
+    {
+      "file": "Tomato_Leaf_Mold/408bcf77-7dd7-4a8a-9f3a-b97684520217___Crnl_L.Mold 6611.JPG",
+      "true_index": 8,
+      "predicted_index": 8,
+      "true_label": "Tomato_Leaf_Mold",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.9960721135139465
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/54647a38-830d-49c7-b96c-f96ece03494a___Matt.S_CG 7585.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.880976676940918
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/307e5715-9790-4321-af40-17209eafc1a6___JR_Sept.L.S 8372.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.5135470628738403
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/d5a1e4e1-f646-408e-b0af-e64262e492d8___Matt.S_CG 0884.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.894698441028595
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/8ea5ab78-1e1f-4f6b-97b0-84550af26040___Keller.St_CG 2039.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.6570747494697571
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/f1fa6e84-2002-4bfa-bd4b-fae24c0bd492___Matt.S_CG 1370.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.7800381779670715
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/bd20fd37-532f-4269-89f8-67071ccee72a___Matt.S_CG 1616.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.8287314176559448
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/f0652fda-d9c2-445d-a1e8-12d716667df0___Keller.St_CG 1870.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.682162344455719
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/09560c54-eb85-4f41-b645-df4d114c8f95___Matt.S_CG 6342.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.3331664800643921
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/14d466da-8b4b-42e1-89b1-cf5f461bd64a___Matt.S_CG 6538.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.9688586592674255
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/a8757243-07bd-490a-b1fc-f6a766e88edd___Matt.S_CG 6766.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.8071443438529968
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/a0e8fa68-4958-44d8-8f53-a66927102422___Matt.S_CG 6592.JPG",
+      "true_index": 9,
+      "predicted_index": 5,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Bacterial_spot",
+      "confidence": 0.5518040060997009
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/720e357b-bde1-421f-99b2-27a22068baef___Keller.St_CG 1982.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.9401122331619263
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/e6f8cbb2-8f12-4092-9a4f-ada51dffc54e___Matt.S_CG 6056.JPG",
+      "true_index": 9,
+      "predicted_index": 6,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Early_blight",
+      "confidence": 0.3925364315509796
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/94f3292d-c589-4d85-8caf-62c52ae331ea___Matt.S_CG 7449.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.6535959243774414
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/b37047b7-2e50-4b67-8a37-bf9aa243b53e___Matt.S_CG 2632.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.5662162899971008
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/bf59d55b-5231-42ee-9880-adae9625c00d___Keller.St_CG 1976.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.8184759616851807
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/0663ec0d-8837-4ba8-82a4-89d8a07ca206___Matt.S_CG 0714.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.929368257522583
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/fe18d20c-3e3c-4fbf-9a11-c38228c6eb8e___JR_Sept.L.S 2623.JPG",
+      "true_index": 9,
+      "predicted_index": 8,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.7568667531013489
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/88dc556d-2f31-41ad-9383-ec54aee9fb57___JR_Sept.L.S 2610.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.7589794993400574
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/9b542a20-992a-454e-afa1-a93d68699261___Keller.St_CG 1802.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.9527916312217712
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/c3233f4f-a6f5-4bfb-a6bf-bd5e5d045f7a___JR_Sept.L.S 2728.JPG",
+      "true_index": 9,
+      "predicted_index": 13,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.35160666704177856
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/dba053d6-6ded-4582-9448-64c01a7c1b9c___Matt.S_CG 6442.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.9025207161903381
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/9cb69cf5-1929-4a4a-9e6a-bac5596a22fd___JR_Sept.L.S 2489.JPG",
+      "true_index": 9,
+      "predicted_index": 8,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.3936547040939331
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/bd0d0b69-ef6e-43d9-b65c-b01e3b1f8e39___Matt.S_CG 1012.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.7688223123550415
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/4193a3fe-d859-4354-b9e7-ec143f24ca01___JR_Sept.L.S 2579.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.9013438820838928
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/e94aaf1a-0c1b-4020-87f0-93c74f929f1c___JR_Sept.L.S 8496.JPG",
+      "true_index": 9,
+      "predicted_index": 7,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Late_blight",
+      "confidence": 0.615110456943512
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/609fec75-fdd5-4adc-8748-121c9420e813___JR_Sept.L.S 2485.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.36863407492637634
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/b4d1fd1c-27f2-476a-8d86-4636028ea4ab___Matt.S_CG 1271.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.9030686616897583
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/a2b2c599-4cbf-4ea4-a05e-639ee9b4f523___Matt.S_CG 6059.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.766224205493927
+    },
+    {
+      "file": "Tomato_Septoria_leaf_spot/45d34d4b-b4b2-4bfb-825a-28aa457655de___Matt.S_CG 2745.JPG",
+      "true_index": 9,
+      "predicted_index": 9,
+      "true_label": "Tomato_Septoria_leaf_spot",
+      "predicted_label": "Tomato_Septoria_leaf_spot",
+      "confidence": 0.9769161939620972
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/ff146f2c-dbb7-4da0-aa98-a36351435489___Com.G_SpM_FL 9654.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.43725237250328064
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/3a190004-02f9-4284-9750-d12fe0272a6f___Com.G_SpM_FL 8922.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.9970848560333252
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/4105c8ab-c7c7-4e13-93c9-80339f36f536___Com.G_SpM_FL 1783.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.8714120388031006
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/d8897927-b800-4192-9669-be4b05195993___Com.G_SpM_FL 1464.JPG",
+      "true_index": 10,
+      "predicted_index": 11,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.41029173135757446
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/421b6662-c258-4c0d-b036-f42bf389c930___Com.G_SpM_FL 1763.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.9885271787643433
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/35d2a711-e171-495c-b030-369f556b6db5___Com.G_SpM_FL 1450.JPG",
+      "true_index": 10,
+      "predicted_index": 8,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.3399597406387329
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/c8a59f0d-0c74-44c3-a862-4874566bb5c0___Com.G_SpM_FL 9594.JPG",
+      "true_index": 10,
+      "predicted_index": 14,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.5804134607315063
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/5618d5c6-1428-4c65-a1de-5dc814f6626d___Com.G_SpM_FL 9026.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.9844399690628052
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/6217205d-283e-4ee9-9b4a-15d4eed299c9___Com.G_SpM_FL 1737.JPG",
+      "true_index": 10,
+      "predicted_index": 14,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.534041702747345
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/1f3c081d-ddf4-48f7-884b-08b3a5b3ae0a___Com.G_SpM_FL 1307.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.826397716999054
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/9c680c37-b94e-498d-bbb3-b727ad6c6c0a___Com.G_SpM_FL 9514.JPG",
+      "true_index": 10,
+      "predicted_index": 14,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.5327367782592773
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/3ba4c514-567a-4e4b-9d22-9cf2a957e906___Com.G_SpM_FL 1198.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.5102715492248535
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/e0e80890-02b8-4cce-80fa-cb60e72b42c7___Com.G_SpM_FL 1659.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.9160661697387695
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/56c9cf66-9b9f-4da0-88b7-47fe8f633a84___Com.G_SpM_FL 9296.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.8084794282913208
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/ddc184a0-ee42-44a4-80ee-ece8e67f1cc9___Com.G_SpM_FL 1231.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.9189170002937317
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/3c8199f8-aa54-47f8-9d70-1bf6cdd2e97b___Com.G_SpM_FL 9277.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.4517020285129547
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/cb4b61d2-35ed-4543-ac39-c79f5c268034___Com.G_SpM_FL 9569.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.6506098508834839
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/ab58e633-4e84-48f1-a412-c8210940345d___Com.G_SpM_FL 1191.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.5862409472465515
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/bbcc32ff-ab32-40bf-8c4f-35ed59740717___Com.G_SpM_FL 9255.JPG",
+      "true_index": 10,
+      "predicted_index": 14,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.49760526418685913
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/16d4c4ec-274a-4b5e-bfa3-6a40f90b46da___Com.G_SpM_FL 9465.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.48234638571739197
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/cf3bd731-bbcd-494e-86a2-793f1e944bb5___Com.G_SpM_FL 9462.JPG",
+      "true_index": 10,
+      "predicted_index": 8,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.8553538918495178
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/77c058b8-2001-4416-8c49-0eb206ba4f57___Com.G_SpM_FL 1219.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.950322151184082
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/edd90a56-3a0f-4b3c-a55e-0e0a73bdf18d___Com.G_SpM_FL 1689.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.9751687049865723
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/68ccf56d-4bd7-4538-ae95-9915fe8d5886___Com.G_SpM_FL 9500.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.7268935441970825
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/cf9b0f20-9a1c-4fce-b78c-e5d5ac122964___Com.G_SpM_FL 9643.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.990094780921936
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/434368e8-214e-4c1e-a1c1-aad66e7f069b___Com.G_SpM_FL 1570.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.5452318787574768
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/9fb18019-23c3-482e-9cdf-a9520238cf29___Com.G_SpM_FL 9617.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.5870434641838074
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/0211efc9-5409-43a7-a46b-a87d46f23fc3___Com.G_SpM_FL 9646.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.49931707978248596
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/af73380e-7559-4abf-ad1f-704bc2e8a570___Com.G_SpM_FL 1472.JPG",
+      "true_index": 10,
+      "predicted_index": 10,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "confidence": 0.6867005228996277
+    },
+    {
+      "file": "Tomato_Spider_mites_Two_spotted_spider_mite/bafa7923-1efe-4e44-94b0-9427b6726bc1___Com.G_SpM_FL 9525.JPG",
+      "true_index": 10,
+      "predicted_index": 11,
+      "true_label": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.7873075008392334
+    },
+    {
+      "file": "Tomato__Target_Spot/e769b3f0-9c74-4bc7-b9a4-8da25d2e833d___Com.G_TgS_FL 7979.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.919475257396698
+    },
+    {
+      "file": "Tomato__Target_Spot/f6f5c1f8-beed-4eb2-8366-5aed3c9b27bc___Com.G_TgS_FL 0033.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.7888297438621521
+    },
+    {
+      "file": "Tomato__Target_Spot/f517602e-150c-45bc-9f16-cdd43b6198cf___Com.G_TgS_FL 0742.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.8161574602127075
+    },
+    {
+      "file": "Tomato__Target_Spot/3cfe6553-5214-4227-801d-62767fbbc904___Com.G_TgS_FL 0686.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.9201810359954834
+    },
+    {
+      "file": "Tomato__Target_Spot/5d157d30-435f-4572-9722-43439ebe6ed2___Com.G_TgS_FL 1048.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.9568735361099243
+    },
+    {
+      "file": "Tomato__Target_Spot/ee3e7dfb-186c-4b33-8661-8c77aefaa46c___Com.G_TgS_FL 9782.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.7495036721229553
+    },
+    {
+      "file": "Tomato__Target_Spot/b61eb02b-407a-46af-8d47-e12ba2e95637___Com.G_TgS_FL 8172.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.7682270407676697
+    },
+    {
+      "file": "Tomato__Target_Spot/42745c34-b8ec-44b1-8107-879222ac07d1___Com.G_TgS_FL 0866.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.7598775029182434
+    },
+    {
+      "file": "Tomato__Target_Spot/fd53a3e2-4153-4b4a-9c27-3535125626c8___Com.G_TgS_FL 9962.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.9522336721420288
+    },
+    {
+      "file": "Tomato__Target_Spot/79e6e0c0-837b-4705-87b6-96fcb8b79360___Com.G_TgS_FL 8176.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.866496741771698
+    },
+    {
+      "file": "Tomato__Target_Spot/649f0256-39b3-4400-b460-611f1fd2124f___Com.G_TgS_FL 0950.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.8553338050842285
+    },
+    {
+      "file": "Tomato__Target_Spot/3ae1f4b2-dc70-40c5-87e1-af9461ffac5a___Com.G_TgS_FL 0658.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.6931768655776978
+    },
+    {
+      "file": "Tomato__Target_Spot/c1f46832-8f04-4984-b911-f87f764727fe___Com.G_TgS_FL 7922.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.936061680316925
+    },
+    {
+      "file": "Tomato__Target_Spot/9b2960c5-ee66-4f48-9cf8-a139cca7fd41___Com.G_TgS_FL 8108.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.7449924349784851
+    },
+    {
+      "file": "Tomato__Target_Spot/aa2456d1-7f6b-4091-9b43-b921735fced4___Com.G_TgS_FL 0733.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.5334475636482239
+    },
+    {
+      "file": "Tomato__Target_Spot/46e01033-9285-43bf-8596-2f09789c0d83___Com.G_TgS_FL 8283.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.8923723101615906
+    },
+    {
+      "file": "Tomato__Target_Spot/20e074f5-27bb-48ac-8cb6-bb6586f3aeaa___Com.G_TgS_FL 8200.JPG",
+      "true_index": 11,
+      "predicted_index": 14,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.6755405068397522
+    },
+    {
+      "file": "Tomato__Target_Spot/4dfda385-7a48-4280-915b-28812f9fc574___Com.G_TgS_FL 0741.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.38034558296203613
+    },
+    {
+      "file": "Tomato__Target_Spot/227541e4-58a7-4abe-aef0-0fab2131c907___Com.G_TgS_FL 0743.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.7498966455459595
+    },
+    {
+      "file": "Tomato__Target_Spot/3057f7d1-30c6-4e73-a21d-ff0564649812___Com.G_TgS_FL 1083.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.8940916061401367
+    },
+    {
+      "file": "Tomato__Target_Spot/89e3fc22-17bc-469b-8443-ffb4ed9a0c2f___Com.G_TgS_FL 8168.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.5700129866600037
+    },
+    {
+      "file": "Tomato__Target_Spot/f276f16a-6fd5-4822-b5df-d035633a28d2___Com.G_TgS_FL 9980.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.6700955629348755
+    },
+    {
+      "file": "Tomato__Target_Spot/59caebd8-c258-45a4-b8b8-bb81c74bd31a___Com.G_TgS_FL 0845.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.7373772263526917
+    },
+    {
+      "file": "Tomato__Target_Spot/6d8f062f-f709-4e70-bf98-1d6a9bad6671___Com.G_TgS_FL 9809.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.6898118257522583
+    },
+    {
+      "file": "Tomato__Target_Spot/3722d404-e409-4af2-8883-2117d4ecdb5d___Com.G_TgS_FL 0937.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.8045349717140198
+    },
+    {
+      "file": "Tomato__Target_Spot/dd88e777-1427-4282-bd31-46c701b2ec68___Com.G_TgS_FL 9745.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.4675140678882599
+    },
+    {
+      "file": "Tomato__Target_Spot/eb7ad835-1ca0-4a70-8398-53cc93aaaeaa___Com.G_TgS_FL 7884.JPG",
+      "true_index": 11,
+      "predicted_index": 8,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.3972916305065155
+    },
+    {
+      "file": "Tomato__Target_Spot/d218823b-77aa-4de0-a51c-66670f00c8f3___Com.G_TgS_FL 7874.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.7337812185287476
+    },
+    {
+      "file": "Tomato__Target_Spot/74aecabd-84ee-44f2-8a1f-695f17e15530___Com.G_TgS_FL 1076.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.979569673538208
+    },
+    {
+      "file": "Tomato__Target_Spot/0b0e5158-180e-487c-b4a7-1ee496473147___Com.G_TgS_FL 9932.JPG",
+      "true_index": 11,
+      "predicted_index": 11,
+      "true_label": "Tomato__Target_Spot",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.4629838764667511
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/78522b1b-254b-4ffc-95c8-cb3240f5d8d6___YLCV_NREC 2360.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9984614849090576
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/08a52166-1435-4602-9d59-5dc6ef93c549___YLCV_NREC 0224.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9909474849700928
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/4b70db95-588f-439d-a73b-ecd0736db2ef___UF.GRC_YLCV_Lab 03403.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9999514818191528
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/0ae630bc-8f67-40b7-b264-120ba0d66341___YLCV_GCREC 5115.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9908463358879089
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/150f2e9e-1317-492d-a926-3014853ea6de___UF.GRC_YLCV_Lab 03116.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.990567147731781
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/76705bf6-0351-425b-9446-180be40dac89___YLCV_GCREC 2426.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9991857409477234
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/31c6a139-249e-4bbf-8c1e-7e5ffa7cfee9___YLCV_NREC 2511.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9605503082275391
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/1a733ead-09a5-44d8-a07f-c0af97c8798d___YLCV_GCREC 2520.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9995170831680298
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/494f0c1d-2f54-40f0-a9e0-0f05b848cce4___YLCV_GCREC 2155.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.667481541633606
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/66bae4b8-716c-4e0e-a71d-f87d8e3bfa87___YLCV_GCREC 5467.JPG",
+      "true_index": 12,
+      "predicted_index": 11,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.8608213067054749
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/31f5ede8-b8de-44db-8f0e-11275028104c___YLCV_GCREC 5247.JPG",
+      "true_index": 12,
+      "predicted_index": 11,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.5655425190925598
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/329b304a-e702-452d-9c51-8d037841bdd6___YLCV_NREC 2569.JPG",
+      "true_index": 12,
+      "predicted_index": 0,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Pepper__bell___Bacterial_spot",
+      "confidence": 0.5259858965873718
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/90d8848f-1cd2-4abf-9e76-ffc05352f6ad___YLCV_GCREC 2883.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.999940037727356
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/2dfa5a01-658b-4876-a02e-31cec4378f9c___UF.GRC_YLCV_Lab 01339.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9999885559082031
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/56ba0dc9-340e-44f8-aa1a-947639c33ffb___UF.GRC_YLCV_Lab 03285.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9999658465385437
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/23eca9f5-ce5b-4828-8caa-854fe506390b___YLCV_GCREC 2491.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.7364057302474976
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/6d25a71f-4e06-4a39-ac71-66fac0d23fb3___UF.GRC_YLCV_Lab 09526.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9926339387893677
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/828544ef-a267-4563-9fcd-400db07ffc2a___YLCV_NREC 0091.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.8093103170394897
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/1a6691f0-2802-4fcb-b47c-b0d24ffb2e05___YLCV_GCREC 2365.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9968293905258179
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/40adc2b8-a598-46bc-b4da-e224702ad520___UF.GRC_YLCV_Lab 01656.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9020195007324219
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/35515968-5714-4c60-ac4d-c3e74500012a___UF.GRC_YLCV_Lab 08532.JPG",
+      "true_index": 12,
+      "predicted_index": 8,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.6002503037452698
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/450f4e21-c1c0-48a2-aa7c-dd8109d652ba___YLCV_GCREC 2514.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9985195398330688
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/221a54ec-fb87-4352-a76e-bd9516106855___UF.GRC_YLCV_Lab 01436.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.999916136264801
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/29542c65-1d9d-4f02-9fac-332f8c81138c___YLCV_GCREC 2245.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.939680278301239
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/94255d4c-a15a-4a7d-8f20-f61c69d08242___YLCV_NREC 2929.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9924494028091431
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/58b58680-5702-4c71-9abf-21e8f9561796___UF.GRC_YLCV_Lab 03181.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9999056458473206
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/4ae10eb4-cd1f-490e-9ffe-61e348dad2b9___YLCV_GCREC 2785.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9389932751655579
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/2f38975a-b7a3-4698-8bc3-0caabf426779___YLCV_NREC 2239.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9975324869155884
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/1321c4b9-86db-41d1-a93b-b036040cc977___YLCV_GCREC 2707.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.9333764910697937
+    },
+    {
+      "file": "Tomato__Tomato_YellowLeaf__Curl_Virus/42eb6375-c2bd-437b-8390-d22411cf58b2___UF.GRC_YLCV_Lab 01674.JPG",
+      "true_index": 12,
+      "predicted_index": 12,
+      "true_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "predicted_label": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "confidence": 0.8135076761245728
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/c9bbf37c-d34f-41b7-9134-e3b81f4e739e___PSU_CG 2145.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.40756872296333313
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/c5132603-ce86-45c0-b9f9-d35c07f4057f___PSU_CG 2256.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.9340872764587402
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/65d7e8ff-9197-4211-a1b7-850c3a74f740___PSU_CG 2073.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.8252964019775391
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/8a398af5-59cc-4d7e-9de9-07c5a5bb2cf3___PSU_CG 2116.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.9888259172439575
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/2324b02b-1f9d-46a2-82f2-23856019d516___PSU_CG 2382.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.6633324027061462
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/a72414b0-f520-4044-abeb-cd09c28b4a9f___PSU_CG 2267.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.9070197343826294
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/006e354b-c054-4b72-a83c-e3feb038942e___PSU_CG 2330.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.8459163904190063
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/597f8dc8-681f-49a8-8985-4ba5b181b53a___PSU_CG 2193.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.921288788318634
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/0b5e2269-7b37-43ac-9a96-c62b9bba2383___PSU_CG 2243.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.4380830228328705
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/cfd8a28f-7af7-4102-b848-0b6d1b2c60e4___PSU_CG 2404.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.6938601136207581
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/b801ed5c-9127-4ce5-b71f-5480620510cf___PSU_CG 2252.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.9089765548706055
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/4139ab06-a33a-448d-819a-3b6da9784a2d___PSU_CG 2049.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.8355133533477783
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/21fe0741-4ff6-4f8f-8969-6b8bdeea58fa___PSU_CG 2278.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.5267937183380127
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/526552ed-aa23-41e6-a79f-05f8fca5162d___PSU_CG 2090.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.9239428639411926
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/4ab5b752-6622-42f2-8743-fa9c9b03e137___PSU_CG 2120.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.9830485582351685
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/eec8df45-9f5b-4121-a630-8088c5422efd___PSU_CG 2157.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.9291749000549316
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/bf950cb4-985f-4174-b32b-9ae2d6e99a84___PSU_CG 2320.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.6956142783164978
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/f32568bd-2f68-4cbc-b083-4d9084858436___PSU_CG 2155.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.7908011674880981
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/155b3b3a-2eab-4b55-aa3c-bb8d7b53b624___PSU_CG 2302.JPG",
+      "true_index": 13,
+      "predicted_index": 8,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato_Leaf_Mold",
+      "confidence": 0.502288281917572
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/8a000704-8eda-40bd-b07d-d04634d4fe72___PSU_CG 2238.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.9210549592971802
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/75c566a5-8c20-4294-8138-4f06a3c2df7c___PSU_CG 2158.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.5675994157791138
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/124f2b6c-ba93-46dc-9662-04ec2b631a23___PSU_CG 2084.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.6052693128585815
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/119554ae-c777-46da-abb7-591404fdc65f___PSU_CG 2393.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.9728536009788513
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/696758e5-0f10-4599-b596-e9e7566c4791___PSU_CG 2062.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.8887661695480347
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/fb79c897-ed92-43c4-8b28-8bdbe951ff56___PSU_CG 2396.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.6838434338569641
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/da2bbe3c-5626-46d2-9640-2da89552f113___PSU_CG 2319.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.800859272480011
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/67c65196-795d-4df0-bbd8-0c18af1028c1___PSU_CG 2387.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.6485521197319031
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/86965ac5-b790-4218-a3c6-216d10da5211___PSU_CG 2066.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.8888185024261475
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/ee1d7f40-d80c-4cac-9cd3-1a687431496e___PSU_CG 2282.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.6043848395347595
+    },
+    {
+      "file": "Tomato__Tomato_mosaic_virus/d82c0de0-bd22-464c-b511-1aad0a44f005___PSU_CG 2384.JPG",
+      "true_index": 13,
+      "predicted_index": 13,
+      "true_label": "Tomato__Tomato_mosaic_virus",
+      "predicted_label": "Tomato__Tomato_mosaic_virus",
+      "confidence": 0.37482738494873047
+    },
+    {
+      "file": "Tomato_healthy/5b7b9824-0cdd-4c67-9377-136a0615d784___RS_HL 0056.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.591262698173523
+    },
+    {
+      "file": "Tomato_healthy/6d1dc982-e62e-448b-85bc-63b0d8363fa0___GH_HL Leaf 328.1.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9686340093612671
+    },
+    {
+      "file": "Tomato_healthy/7188d286-5201-40b6-925a-52af6e6c7c03___GH_HL Leaf 479.1.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9588383436203003
+    },
+    {
+      "file": "Tomato_healthy/0a86ddc0-4950-4efc-9260-0f16d4db046b___RS_HL 0469.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9853946566581726
+    },
+    {
+      "file": "Tomato_healthy/fe0b76dc-4263-4cda-8840-310ebe72a432___GH_HL Leaf 490.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9929838180541992
+    },
+    {
+      "file": "Tomato_healthy/09c0d78a-c9ca-4dc4-aa10-e25530890b20___GH_HL Leaf 424.1.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.994464635848999
+    },
+    {
+      "file": "Tomato_healthy/f0cc7028-bf33-4ed4-8df0-7f1e80f42d15___GH_HL Leaf 266.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9998785257339478
+    },
+    {
+      "file": "Tomato_healthy/acdbf632-8d26-472d-874f-6d7df5cd0432___RS_HL 9897.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9938614964485168
+    },
+    {
+      "file": "Tomato_healthy/cdfeddb6-3064-48dc-bac9-05441dedc74e___RS_HL 0323.JPG",
+      "true_index": 14,
+      "predicted_index": 11,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.48035529255867004
+    },
+    {
+      "file": "Tomato_healthy/20024ad7-62d7-492c-aa7c-5a139a9a2aff___GH_HL Leaf 416.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9846160411834717
+    },
+    {
+      "file": "Tomato_healthy/6398befe-9cd0-4724-b564-248d76b50b5a___GH_HL Leaf 196.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9999527931213379
+    },
+    {
+      "file": "Tomato_healthy/3b247bc2-44d4-4fea-ae3e-aef886d27e45___RS_HL 0584.JPG",
+      "true_index": 14,
+      "predicted_index": 11,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato__Target_Spot",
+      "confidence": 0.6053882837295532
+    },
+    {
+      "file": "Tomato_healthy/89ecd925-23ef-4bfe-8c55-cad05161aca2___GH_HL Leaf 236.1.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9991962909698486
+    },
+    {
+      "file": "Tomato_healthy/2d02a0d6-0734-4ac7-957f-44f2a011fdc3___RS_HL 0375.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.8664052486419678
+    },
+    {
+      "file": "Tomato_healthy/eab401a8-c014-4a63-98d4-b6144cfc7bc9___GH_HL Leaf 289.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9705024361610413
+    },
+    {
+      "file": "Tomato_healthy/6f6c7236-d6b5-4bbb-a89e-e1c8246550dd___RS_HL 0559.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9833812713623047
+    },
+    {
+      "file": "Tomato_healthy/674f82cb-c61c-4944-b8d6-1afb6212f96f___RS_HL 9646.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.99928218126297
+    },
+    {
+      "file": "Tomato_healthy/e5e65db7-de7e-4dc7-a480-9bd7092ccf69___RS_HL 0222.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9635613560676575
+    },
+    {
+      "file": "Tomato_healthy/3e2fa71c-73a6-48f5-9175-4d43a078115a___RS_HL 0159.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9809761643409729
+    },
+    {
+      "file": "Tomato_healthy/b7e3a280-a031-475d-95b2-a1d2f0f49e02___GH_HL Leaf 279.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9839475154876709
+    },
+    {
+      "file": "Tomato_healthy/ca6ad351-41f5-4893-8188-1c1c4b4184b4___GH_HL Leaf 496.4.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.990907609462738
+    },
+    {
+      "file": "Tomato_healthy/3be50742-0fe9-404a-809e-9597793748a8___GH_HL Leaf 191.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.999266505241394
+    },
+    {
+      "file": "Tomato_healthy/8a4dc6f9-2f54-4bdd-957f-d9fb709e1b26___GH_HL Leaf 302.1.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9999910593032837
+    },
+    {
+      "file": "Tomato_healthy/9dc940f8-cd79-4341-95ef-f845583d9dff___RS_HL 9751.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9454704523086548
+    },
+    {
+      "file": "Tomato_healthy/b427ec05-0b9a-45c6-8148-cbddad66e99d___GH_HL Leaf 516.3.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9958652257919312
+    },
+    {
+      "file": "Tomato_healthy/b67b2bfe-af4a-45ce-8df0-ab679ac9c559___RS_HL 9797.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9689133763313293
+    },
+    {
+      "file": "Tomato_healthy/0764ce38-ecb9-4046-88d9-c8f176c6ee8b___GH_HL Leaf 423.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.987838089466095
+    },
+    {
+      "file": "Tomato_healthy/e1571f83-5f00-4653-a176-2033f27405fa___GH_HL Leaf 353.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9987501502037048
+    },
+    {
+      "file": "Tomato_healthy/fcf52850-1cc7-4b7a-8e89-3c3ec1f4be1d___RS_HL 9766.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.9030594825744629
+    },
+    {
+      "file": "Tomato_healthy/c0a9b97c-c80c-4801-a877-7fb009601ddb___RS_HL 0346.JPG",
+      "true_index": 14,
+      "predicted_index": 14,
+      "true_label": "Tomato_healthy",
+      "predicted_label": "Tomato_healthy",
+      "confidence": 0.8826063275337219
+    }
+  ],
+  "sampling": {
+    "per_class": 30,
+    "seed": 42,
+    "batch_size": 32
+  },
+  "metric_notes": "Every model class is retained in the report and confusion matrix. Macro F1 averages all classes, including classes absent from this folder. These folder-level metrics do not establish a held-out evaluation split.",
+  "model": "model_multiclass_final.keras",
+  "dataset": "archive/PlantVillage",
+  "model_sha256": "b4d916b70e9a740a0290f2f83b0dc92366d7f69f7472edcbf7982a18fa07b035",
+  "labels_sha256": "cc43e143b0485a6a135cc2e2021bbbdee48b7af5277861a8d42a0a2cfc6be9e7",
+  "verification_date": "2026-10-23",
+  "preprocessing": {
+    "color": "RGB",
+    "size": [
+      224,
+      224
+    ],
+    "interpolation": "nearest",
+    "scale": "float32 / 255.0"
+  }
+}

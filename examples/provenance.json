@@ -1,0 +1,8 @@
+{
+  "tomato_healthy.jpg": {
+    "source_path": "archive/PlantVillage/Tomato_healthy/000146ff-92a4-4db6-90ad-8fce2ae4fddd___GH_HL Leaf 259.1.JPG",
+    "sha256": "a294299b0518a50ebc275c0ec4519b022cab8b34735039f6c2a089a911f6964e",
+    "dataset": "PlantVillage subset included with the original SmartCrop project",
+    "purpose": "Known source-data example for inference smoke tests, not an independent test image"
+  }
+}
