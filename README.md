@@ -2,7 +2,7 @@
 
 **Plant leaf disease classification with explainable predictions and a reproducible evaluation workflow.**
 
-[![Tests](https://github.com/MakenzieAhern/smartcrop-vision/actions/workflows/tests.yml/badge.svg)](https://github.com/MakenzieAhern/smartcrop-vision/actions/workflows/tests.yml)
+[![Tests](https://github.com/MakenzieAhern/smartcrop-vision/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/MakenzieAhern/smartcrop-vision/actions/workflows/tests.yml)
 ![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![TensorFlow 2.17](https://img.shields.io/badge/TensorFlow-2.17-FF6F00?logo=tensorflow&logoColor=white)
 ![15 classes](https://img.shields.io/badge/Plant_leaf_classes-15-2F7D32)
